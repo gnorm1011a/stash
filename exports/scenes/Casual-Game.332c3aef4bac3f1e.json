@@ -1,0 +1,34 @@
+﻿{
+  "title": "Casual Game",
+  "studio": "Amour Angels",
+  "urls": [
+    "https://amourangels.com/z_cover_3597.html"
+  ],
+  "date": "2024-12-16",
+  "rating": 80,
+  "director": "Marita Berg",
+  "performers": [
+    "Cherry Blossom"
+  ],
+  "tags": [
+    "Solo Female"
+  ],
+  "files": [
+    "D:\\Temp\\Teen - Amour Angels - Lilly (1080).mp4"
+  ],
+  
+  "created_at": "2026-03-17T08:55:59+11:00",
+  "updated_at": "2026-08-17T13:38:24+10:00",
+  "last_played_at": null,
+  "resume_time": 1030.878327,
+  "play_history": [
+    "2026-03-16T22:20:16Z"
+  ],
+  "play_duration": 130,
+  "stash_ids": [
+    {
+      "stash_id": "1e5cbcf7-f7dd-4cea-9573-604f861e0923",
+      "endpoint": "https://stashdb.org/graphql"
+    }
+  ]
+}

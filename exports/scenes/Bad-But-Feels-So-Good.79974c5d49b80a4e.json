@@ -1,0 +1,23 @@
+﻿{
+  "title": "Bad, But Feels So Good!",
+  "studio": "Doctor Adventures",
+  "date": "2007-04-02",
+  "details": "Dr. Bing is dealing with a patient with a persistent cough this morning. He attributes his bad cough to his heavy drug use. Dr. Bing treats the patient of course but also gives him some words on the bad effects drugs has on the body. Her words fall on deaf ears and he decides to show the doctor just what type of effects drugs has on the body!",
+  "performers": [
+    "Carmella Bing",
+    "Joe Blow"
+  ],
+  "files": [
+    "\\\\192.168.0.31\\Collection\\Video\\Carmella Bing - Doctor Adventures.mpg"
+  ],
+  
+  "created_at": "2026-01-04T01:03:31+11:00",
+  "updated_at": "2026-01-06T23:01:17+11:00",
+  "last_played_at": null,
+  "stash_ids": [
+    {
+      "stash_id": "0cad52b1-84e9-4674-9517-18fe7f007c39",
+      "endpoint": "https://stashdb.org/graphql"
+    }
+  ]
+}

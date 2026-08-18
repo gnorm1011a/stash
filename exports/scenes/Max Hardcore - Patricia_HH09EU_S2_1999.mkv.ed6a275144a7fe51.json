@@ -1,0 +1,23 @@
+﻿{
+  "studio": "Max Hardcore",
+  "performers": [
+    "Max Hardcore"
+  ],
+  "movies": [
+    {
+      "movieName": "Max Hardcore"
+    }
+  ],
+  "files": [
+    "\\\\192.168.0.31\\Collection\\Video\\Max Hardcore\\Max Hardcore - Patricia_HH09EU_S2_1999.mkv"
+  ],
+  
+  "created_at": "2026-01-04T01:56:54+11:00",
+  "updated_at": "2026-01-08T17:13:47+11:00",
+  "last_played_at": null,
+  "resume_time": 1548.3219974078304,
+  "play_history": [
+    "2026-06-15T00:51:33Z"
+  ],
+  "play_duration": 757
+}

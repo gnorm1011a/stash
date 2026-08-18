@@ -1,0 +1,328 @@
+# =============================================================================
+# Stash config — TEMPLATE (secrets stripped)
+# =============================================================================
+# Copy to config.yml and fill in real values before use.
+# Real config.yml is gitignored — never commit secrets.
+#
+# Secrets to replace:
+#   jwt_secret_key      — generate with: openssl rand -hex 32
+#   session_store_key   — generate with: openssl rand -hex 32
+#   stash_boxes[].apikey — your stashdb.org API key (https://stashdb.org)
+# =============================================================================
+
+cache: D:\Stash\cache
+calculate_md5: false
+config: ""
+create_galleries_from_folders: true
+create_image_clip_from_videos: false
+dangerous_allow_public_without_auth: "false"
+database: C:\Users\adam\.stash\stash-go.sqlite
+downloads: D:\Stash\metadata\downloads
+gallery_cover_regex: (poster|cover|folder|board)\.[^\.]+$
+generated: D:\Stash\previews
+host: 0.0.0.0
+jwt_secret_key: REPLACE_WITH_GENERATED_HEX_KEY
+max_session_age: 3600
+menu_items:
+    - scenes
+    - images
+    - groups
+    - markers
+    - galleries
+    - performers
+    - studios
+    - tags
+metadata: D:\Stash\metadata
+no_proxy: localhost,127.0.0.1,192.168.0.0/16,10.0.0.0/8,172.16.0.0/12
+nobrowser: true
+notifications_enabled: true
+parallel_tasks: 1
+plugins:
+    disabled:
+        - performer-poster-backdrop
+        - Theme-BlackHole
+    package_sources:
+        - localpath: community
+          name: Community (stable)
+          url: https://stashapp.github.io/CommunityScripts/stable/index.yml
+        - localpath: null
+          name: PornPics
+          url: https://crudecreations.github.io/stash-plugins/stable/plugins.yaml
+    settings:
+        BulkImageScrape:
+            CreateMissingPerformers: true
+            CreateMissingStudios: true
+            MergeExistingTags: true
+        DupFileManager:
+            mergeDupFilename: true
+            zySwapBetterBitRate: true
+            zySwapBetterFrameRate: true
+            zySwapCodec: true
+            zySwapHighRes: true
+            zySwapLongLength: true
+            zzdryRun: true
+        imageGalleryNavigation:
+            enableTransform: false
+        markerTagToScene:
+            allTags: true
+        set-image-pornpics:
+            show_edit_group: true
+        tagScenesWithPerfTags:
+            excludeSceneOrganized: false
+plugins_path: C:\Users\adam\.stash\plugins
+port: 9999
+preview_audio: true
+preview_exclude_end: "0"
+preview_exclude_start: "0"
+preview_segment_duration: 0.75
+preview_segments: 12
+scrapers:
+    package_sources:
+        - localpath: community
+          name: Community (stable)
+          url: https://stashapp.github.io/CommunityScrapers/stable/index.yml
+scrapers_path: C:\Users\adam\.stash\scrapers
+security_tripwire_accessed_from_public_internet: ""
+sequential_scanning: false
+session_store_key: REPLACE_WITH_GENERATED_HEX_KEY
+show_one_time_moved_notification: false
+sound_on_preview: false
+stash:
+    - excludeimage: true
+      excludevideo: false
+      path: D:\Temp
+    - excludeimage: true
+      excludevideo: false
+      path: \\192.168.0.31\Collection\Video
+    - excludeimage: false
+      excludevideo: true
+      path: \\192.168.0.31\Collection\Photos\Stars
+    - excludeimage: false
+      excludevideo: false
+      path: \\192.168.0.31\Collection\Photos\Viper\Adult Photo Collections
+    - excludeimage: false
+      excludevideo: true
+      path: \\192.168.0.31\Collection\Photos\Viper\Hardcore Photo Sets
+    - excludeimage: false
+      excludevideo: true
+      path: \\192.168.0.31\Collection\Photos\Viper\Hardcore Photo Sets (Archive)
+    - excludeimage: false
+      excludevideo: true
+      path: \\192.168.0.31\Collection\Photos\Viper\Scene Photos
+    - excludeimage: false
+      excludevideo: true
+      path: \\192.168.0.31\Collection\Photos\Viper\Softcore Photo Sets
+    - excludeimage: false
+      excludevideo: true
+      path: \\192.168.0.31\Collection\Photos\Viper\Softcore Photo Sets (Archive)
+    - excludeimage: false
+      excludevideo: true
+      path: \\192.168.0.31\Collection\Photos\Galleries
+    - excludeimage: false
+      excludevideo: true
+      path: \\192.168.0.31\Collection\Photos\Viper\Non-Nude Photo Collections
+stash_boxes:
+    - apikey: REPLACE_WITH_STASHDB_API_KEY
+      endpoint: https://stashdb.org/graphql
+      name: stashDB.org
+theme_color: '#202b33'
+ui:
+    advancedMode: true
+    defaultFilters:
+        galleries:
+            find_filter:
+                direction: DESC
+                page: "1"
+                per_page: "40"
+                q: ""
+                sort: created_at
+            mode: GALLERIES
+            object_filter: {}
+            ui_options:
+                display_mode: "0"
+                zoom_index: "1"
+        performers:
+            find_filter:
+                direction: DESC
+                page: "1"
+                per_page: "40"
+                q: ""
+                sort: scenes_count
+            mode: PERFORMERS
+            object_filter:
+                gender:
+                    modifier: INCLUDES
+                    value:
+                        - Female
+            ui_options:
+                display_mode: "0"
+                zoom_index: "1"
+        scene_markers:
+            find_filter:
+                direction: DESC
+                page: "1"
+                per_page: "40"
+                q: ""
+                sort: created_at
+            mode: SCENE_MARKERS
+            object_filter: {}
+            ui_options:
+                display_mode: "2"
+                zoom_index: "1"
+        scenes:
+            find_filter:
+                direction: DESC
+                page: "1"
+                per_page: "40"
+                q: ""
+                sort: created_at
+            mode: SCENES
+            object_filter: {}
+            ui_options:
+                display_mode: "0"
+                zoom_index: "1"
+        studios:
+            find_filter:
+                direction: DESC
+                page: "1"
+                per_page: "40"
+                q: ""
+                sort: scenes_count
+            mode: STUDIOS
+            object_filter: {}
+            ui_options:
+                display_mode: "0"
+                zoom_index: "1"
+        tags:
+            find_filter:
+                direction: ASC
+                page: "1"
+                per_page: "40"
+                q: ""
+                sort: name
+            mode: TAGS
+            object_filter:
+                favorite:
+                    modifier: EQUALS
+                    value: "true"
+            ui_options:
+                display_mode: "0"
+                zoom_index: "1"
+    enableChromecast: true
+    enablePerformerBackgroundImage: true
+    enableTagBackgroundImage: true
+    frontPageContent:
+        - __typename: CustomFilter
+          direction: DESC
+          message:
+            id: recently_released_objects
+            values:
+                objects: Scenes
+          mode: SCENES
+          sortBy: date
+        - __typename: CustomFilter
+          direction: DESC
+          message:
+            id: recently_added_objects
+            values:
+                objects: Studios
+          mode: STUDIOS
+          sortBy: created_at
+        - __typename: CustomFilter
+          direction: DESC
+          message:
+            id: recently_released_objects
+            values:
+                objects: Groups
+          mode: GROUPS
+          sortBy: date
+        - __typename: CustomFilter
+          direction: DESC
+          message:
+            id: recently_added_objects
+            values:
+                objects: Performers
+          mode: PERFORMERS
+          sortBy: created_at
+        - __typename: CustomFilter
+          direction: DESC
+          message:
+            id: recently_released_objects
+            values:
+                objects: Galleries
+          mode: GALLERIES
+          sortBy: date
+    lastNoteSeen: "20240826"
+    pinnedFilters:
+        galleries:
+            - performer_tags
+            - isMissing
+            - tags
+            - performers
+        performers:
+            - gender
+            - country
+            - favourite
+            - tags
+        sceneMarkers:
+            - tags
+        scenes:
+            - performer_tags
+            - tags
+            - isMissing
+            - rating
+            - performers
+        tags: []
+    ratingSystemOptions:
+        starPrecision: half
+        type: stars
+    showChildStudioContent: true
+    taggerConfig:
+        blacklist:
+            - \sXXX\s
+            - 1080p
+            - 720p
+            - 2160p
+            - KTR
+            - RARBG
+            - \scom\s
+            - \[
+            - \]
+        createParentStudios: true
+        excludedPerformerFields:
+            - name
+        excludedStudioFields:
+            - name
+        fingerprintQueue:
+            https://stashdb.org/graphql: []
+        markSceneAsOrganizedOnSave: false
+        mode: auto
+        setCoverImage: true
+        setTags: true
+        showMales: true
+        tagOperation: merge
+    taskDefaults:
+        generate:
+            covers: false
+            interactiveHeatmapsSpeeds: false
+            markers: true
+            phashes: true
+            previewOptions:
+                previewExcludeEnd: "0"
+                previewExcludeStart: "0"
+                previewPreset: slow
+                previewSegmentDuration: "0.75"
+                previewSegments: "12"
+            previews: false
+            sprites: false
+        scan:
+            scanGenerateClipPreviews: false
+            scanGenerateCovers: true
+            scanGenerateImagePreviews: false
+            scanGeneratePhashes: false
+            scanGeneratePreviews: true
+            scanGenerateSprites: false
+            scanGenerateThumbnails: false
+video_file_naming_algorithm: OSHASH
+wall_show_title: false
+write_image_thumbnails: true

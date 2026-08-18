@@ -1,0 +1,67 @@
+# =============================================================================
+# Stash config repo — .gitignore
+# =============================================================================
+# This repo tracks ONLY small text files: redacted config template, scripts,
+# and Stash's JSON metadata export. The 4 GB SQLite database and secrets
+# are backed up elsewhere (NAS / cloud), NEVER committed to git.
+# =============================================================================
+
+# ---- Secrets ----
+# Real config contains jwt_secret_key, session_store_key, stashdb API keys.
+# Only the redacted template (config.example.yml) is tracked.
+config.yml
+config.yml.*
+!config.example.yml
+
+# ---- Database (4 GB — too big for git) ----
+*.sqlite
+*.sqlite-*
+*.sqlite-shm
+*.sqlite-wal
+*.db
+*.db-journal
+
+# ---- Backups (compressed DB snapshots — also too big) ----
+*.7z
+*.zip
+*.gz
+*.zst
+backups/
+
+# ---- Stash binaries / generated content ----
+*.exe
+ffmpeg/
+ffprobe*
+generated/
+cache/
+metadata/
+downloads/
+previews/
+*.jpg
+*.png
+*.gif
+*.webp
+!icon.png
+!docs/**/*.png
+
+# ---- Python / plugin caches ----
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# ---- OS junk ----
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# ---- Editor ----
+.vscode/
+.idea/
+*.swp
+*~
+
+# ---- Local-only notes ----
+local/
+*.local.ps1

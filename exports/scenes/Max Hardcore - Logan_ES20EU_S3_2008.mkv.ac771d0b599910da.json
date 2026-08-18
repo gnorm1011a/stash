@@ -1,0 +1,24 @@
+﻿{
+  "studio": "Max Hardcore",
+  "performers": [
+    "Max Hardcore",
+    "Chloe Morgan"
+  ],
+  "movies": [
+    {
+      "movieName": "Max Hardcore"
+    }
+  ],
+  "files": [
+    "\\\\192.168.0.31\\Collection\\Video\\Max Hardcore\\Max Hardcore - Logan_ES20EU_S3_2008.mkv"
+  ],
+  
+  "created_at": "2026-01-04T01:56:30+11:00",
+  "updated_at": "2026-01-08T17:13:47+11:00",
+  "last_played_at": null,
+  "resume_time": 105.61409689092423,
+  "play_history": [
+    "2026-01-08T05:55:55Z"
+  ],
+  "play_duration": 3
+}

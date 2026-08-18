@@ -1,0 +1,27 @@
+﻿{
+  "studio": "Max Hardcore",
+  "rating": 100,
+  "performers": [
+    "Max Hardcore",
+    "Rosy Rocket"
+  ],
+  "movies": [
+    {
+      "movieName": "Max Hardcore"
+    }
+  ],
+  "files": [
+    "\\\\192.168.0.31\\Collection\\Video\\Max Hardcore\\Max Hardcore - Rosy_Rocket_HH05EU_S2_1999.mkv"
+  ],
+  
+  "created_at": "2026-01-04T01:57:03+11:00",
+  "updated_at": "2026-03-18T10:39:12+11:00",
+  "last_played_at": null,
+  "play_history": [
+    "2026-03-17T23:37:39Z"
+  ],
+  "o_history": [
+    "2026-03-18T04:35:54Z"
+  ],
+  "play_duration": 1199
+}

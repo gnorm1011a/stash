@@ -1,0 +1,24 @@
+﻿{
+  "studio": "Max Hardcore",
+  "performers": [
+    "Max Hardcore",
+    "Savannah Rain"
+  ],
+  "movies": [
+    {
+      "movieName": "Max Hardcore"
+    }
+  ],
+  "files": [
+    "\\\\192.168.0.31\\Collection\\Video\\Max Hardcore\\Max Hardcore - Savannah_Rain_PM09EU_S2_2001.mkv"
+  ],
+  
+  "created_at": "2026-01-04T01:57:09+11:00",
+  "updated_at": "2026-02-27T12:01:52+11:00",
+  "last_played_at": null,
+  "resume_time": 507.184839,
+  "play_history": [
+    "2026-03-02T02:59:22Z"
+  ],
+  "play_duration": 287
+}

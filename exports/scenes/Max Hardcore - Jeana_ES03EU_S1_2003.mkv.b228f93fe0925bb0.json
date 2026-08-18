@@ -1,0 +1,24 @@
+﻿{
+  "studio": "Max Hardcore",
+  "performers": [
+    "Max Hardcore",
+    "Jayna Oso"
+  ],
+  "movies": [
+    {
+      "movieName": "Max Hardcore"
+    }
+  ],
+  "files": [
+    "\\\\192.168.0.31\\Collection\\Video\\Max Hardcore\\Max Hardcore - Jeana_ES03EU_S1_2003.mkv"
+  ],
+  
+  "created_at": "2026-01-04T01:55:55+11:00",
+  "updated_at": "2026-03-10T21:49:54+11:00",
+  "last_played_at": null,
+  "resume_time": 297.91764861821906,
+  "play_history": [
+    "2026-05-24T06:26:47Z"
+  ],
+  "play_duration": 320
+}

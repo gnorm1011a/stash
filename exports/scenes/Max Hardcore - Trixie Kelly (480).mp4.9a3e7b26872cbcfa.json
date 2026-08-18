@@ -1,0 +1,24 @@
+﻿{
+  "studio": "Max Hardcore",
+  "performers": [
+    "Max Hardcore",
+    "Trixie Kelly"
+  ],
+  "movies": [
+    {
+      "movieName": "Max Hardcore"
+    }
+  ],
+  "files": [
+    "\\\\192.168.0.31\\Collection\\Video\\Max Hardcore - Trixie Kelly (480).mp4"
+  ],
+  
+  "created_at": "2026-01-03T22:25:32+11:00",
+  "updated_at": "2026-06-03T08:40:19+10:00",
+  "last_played_at": null,
+  "resume_time": 67.652241,
+  "play_history": [
+    "2026-01-30T05:52:46Z"
+  ],
+  "play_duration": 4
+}
