@@ -52,11 +52,11 @@
       "getLocalDupReportPath",
       "json"
     );
-    var LocalDuplicateReportPath = "file://" + LocalDuplicateReport.Path;
+    var LocalDuplicateReportPath = "file:///" + LocalDuplicateReport.Path.replace(/\\/g, "/");
     console.log(LocalDuplicateReportPath);
     // AdvanceMenuOptionUrl = LocalDuplicateReportPath.replace("report\\DuplicateTagScenes.html", "advance_options.html" + "?GQL=" + rootPath);
     AdvanceMenuOptionUrl = LocalDuplicateReportPath.replace(
-      "report\\DuplicateTagScenes.html",
+      "report/DuplicateTagScenes.html",
       "advance_options.html"
     );
     console.log(AdvanceMenuOptionUrl);
