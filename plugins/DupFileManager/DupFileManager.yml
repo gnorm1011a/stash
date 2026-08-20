@@ -9,6 +9,9 @@ ui:
     - DupFileManager.css
     - DupFileManager.css.map
     - DupFileManager.js.map
+  assets:
+    /: .
+    /report: report
 settings:
   matchDupDistance:
     displayName: Match Duplicate Distance

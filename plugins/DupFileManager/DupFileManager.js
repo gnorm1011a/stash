@@ -52,13 +52,10 @@
       "getLocalDupReportPath",
       "json"
     );
-    var LocalDuplicateReportPath = "file:///" + LocalDuplicateReport.Path.replace(/\\/g, "/");
+    var reportFileName = LocalDuplicateReport.Path.split("\\").pop().split("/").pop();
+    var LocalDuplicateReportPath = rootPath + "/plugin/DupFileManager/assets/report/" + reportFileName;
     console.log(LocalDuplicateReportPath);
-    // AdvanceMenuOptionUrl = LocalDuplicateReportPath.replace("report\\DuplicateTagScenes.html", "advance_options.html" + "?GQL=" + rootPath);
-    AdvanceMenuOptionUrl = LocalDuplicateReportPath.replace(
-      "report/DuplicateTagScenes.html",
-      "advance_options.html"
-    );
+    AdvanceMenuOptionUrl = rootPath + "/plugin/DupFileManager/assets/advance_options.html";
     console.log(AdvanceMenuOptionUrl);
     LocalDupReportExist = LocalDuplicateReport.LocalDupReportExist;
     return LocalDuplicateReportPath;
