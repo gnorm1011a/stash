@@ -152,17 +152,18 @@ matchPhaseDistance          = PhashDistance.EXACT
 matchPhaseDistanceText      = "Exact Match"
 if (stash.PLUGIN_TASK_NAME == "tag_duplicates_task" or stash.PLUGIN_TASK_NAME == "create_duplicate_report_task") and 'Target' in stash.JSON_INPUT['args']:
     stash.enableProgressBar(False)
-    if stash.JSON_INPUT['args']['Target'].startswith("0"):
+    targetArg = str(stash.JSON_INPUT['args']['Target'])
+    if targetArg.startswith("0"):
         matchDupDistance = 0
-    elif stash.JSON_INPUT['args']['Target'].startswith("1"):
+    elif targetArg.startswith("1"):
         matchDupDistance = 1
-    elif stash.JSON_INPUT['args']['Target'].startswith("2"):
+    elif targetArg.startswith("2"):
         matchDupDistance = 2
-    elif stash.JSON_INPUT['args']['Target'].startswith("3"):
+    elif targetArg.startswith("3"):
         matchDupDistance = 3
-    
-    if stash.JSON_INPUT['args']['Target'].find(":") == 1:
-        significantTimeDiff = float(stash.JSON_INPUT['args']['Target'][2:])
+
+    if targetArg.find(":") == 1:
+        significantTimeDiff = float(targetArg[2:])
         excludeFromReportIfSignificantTimeDiff = True
 
 if matchDupDistance == 1:
@@ -590,7 +591,7 @@ def doesDelCandidateHaveMetadataNotInDupToKeep(DupFile, DupFileToKeep, listName,
     return DupToKeepMissingItem, DelCandidateMissingItem
 
 
-htmlReportNameFolder        = f"{stash.PLUGINS_PATH}{os.sep}DupFileManager{os.sep}report"
+htmlReportNameFolder        = f"{pathlib.Path(stash.MAIN_SCRIPT_NAME).resolve().parent}{os.sep}report"
 htmlReportName              = f"{htmlReportNameFolder}{os.sep}{stash.Setting('htmlReportName')}"
 htmlReportTableRow          = stash.Setting('htmlReportTableRow')
 htmlIncludeImagePreview     = stash.Setting('htmlIncludeImagePreview')
