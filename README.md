@@ -12,11 +12,13 @@ Git-tracked configuration and curated metadata for the Stash media manager runni
 | `scripts/Sync-StashMetadataExport.ps1` | Copy curated metadata, strip cover images | Yes |
 | `scripts/Invoke-StashMetadataExport.ps1` | Trigger Stash full JSON export | Yes |
 | `scripts/Export-StashSummary.ps1` | Compact stats/tags/studios summary via GraphQL | Yes |
+| `scripts/Rename-UnfiledVideos.ps1` | Propose renames for Unfiled queue per naming convention (dry-run by default) | Yes |
+| `scripts/New-RenameExcelReport.ps1` | Generate formatted Excel spreadsheet from rename plan CSV (requires Python + openpyxl) | Yes |
 | `exports/scenes/` | Scene JSONs (covers stripped) | Yes |
 | `exports/performers.json` | Performers via GraphQL | Yes |
 | `exports/studios.json` | Studios via GraphQL | Yes |
 | `exports/tags.json` | Tags via GraphQL | Yes |
-| `plugins/` | Custom Stash plugins (future) | Yes |
+| `plugins/DupFileManager/` | DupFileManager community plugin (tracked for bug fixes) | Yes |
 | `stash-go.sqlite` | The 4 GB live database | **No** (gitignored) |
 
 ## Why the database is NOT in git
@@ -89,13 +91,167 @@ The script:
 3. Copies the `.7z` to the NAS backup directory
 4. Cleans up the uncompressed backup file
 
+## Rename Unfiled videos
+
+Newly acquired video files land in `\\192.168.0.31\Collection\Unfiled\` with
+source-site filenames (e.g. `EPORNER.COM - [ID] Description (1080).mp4`). The
+`Rename-UnfiledVideos.ps1` script proposes new filenames matching the
+collection's naming convention (see `NAMING-CONVENTION.md`).
+
+### v2 approach (current)
+
+The script uses **rule-based cleanup + intelligent name detection** — it does
+NOT rely on the Stash performer/studio database. Instead it:
+
+1. Parses the eporner filename (ID, description, resolution, extension)
+2. Normalises obfuscation (`@`→`a`, `1`→`i`, `0`→`o`, `M1LF`→`MILF`)
+3. Removes junk text (hex strings, watermarks, AI-enhanced notes, 6+ digit IDs)
+4. Fixes formatting (underscores→spaces, dots in names→spaces, brackets removed)
+5. Detects the lead token from validated archive categories only:
+   Euro, Teen, Asian, Russian, Compilation, Amateur, Black, Latina, Brazilian,
+   German, TS, UI
+6. Applies subcategory rules (Japanese→`Asian - JAV`, Chinese→`Asian - Chinese`)
+7. Detects performer names heuristically (2-word capitalised sequences that
+   aren't common non-name words or known studios)
+8. Inserts `UI` when no performer is identified
+9. Applies studio-specific prefix rules (TTL→`Teen - TTL`, Assman→`Euro - Assman`)
+10. Cleans the description (removes detected names/keywords, applies Title Case
+    with ALL CAPS for known acronyms like MILF, POV, BBC, TS, JAV)
+11. Composes the filename per the archive convention
+
+### Lead token priority
+
+1. **TS** — trans indicators override other categories
+2. **Prefixed studios** — TTL→Teen, Showy Beauty→Teen, Assman→Euro, BRAZU→Brazilian
+3. **Asian/JAV** — Japanese/Chinese/Thai/Korean keywords
+4. **Nationality** — Russian, German, Brazilian, Latina, Black (with clothing-context check)
+5. **Euro** — French, Italian, Czech, etc.
+6. **Lead studios** — BRCC, Hookup Hotshot, Facial Abuse
+7. **Teen/Amateur/Compilation** — keyword-based
+8. **UI** — fallback when nothing else matched
+
+### Usage
+
+```powershell
+# Dry run - produces CSV + Excel spreadsheet, renames nothing
+.\scripts\Rename-UnfiledVideos.ps1
+
+# Dry run - only high-confidence matches
+.\scripts\Rename-UnfiledVideos.ps1 -MinConfidence High
+
+# Dry run - skip Excel generation (CSV only)
+.\scripts\Rename-UnfiledVideos.ps1 -NoExcel
+
+# Dry run - process only 100 files (for testing)
+.\scripts\Rename-UnfiledVideos.ps1 -SampleSize 100 -NoExcel
+
+# Execute renames (high-confidence only, with confirmation prompt)
+.\scripts\Rename-UnfiledVideos.ps1 -Execute -MinConfidence High
+```
+
+### Output files
+
+| File | Format | Purpose |
+|------|--------|---------|
+| `exports/unfiled-rename-plan.csv` | CSV | Machine-readable report for scripting |
+| `exports/unfiled-rename-plan.xlsx` | Excel | Formatted spreadsheet for human review |
+
+The Excel spreadsheet (generated via `New-RenameExcelReport.ps1`, requires
+Python + openpyxl) includes:
+- Colour-coded rows by confidence level (green/yellow/orange/grey)
+- Frozen header row with autofilter for sorting/filtering
+- An **Approved** column for marking yes/no during review
+- An **Edited Filename** column for manual corrections
+- A **Review Notes** column for comments
+- A **Summary** sheet with counts by confidence and leading token
+
+### CSV columns
+
+OldFilename, NewFilename, EpornerID, LeadingToken, Subcategory, MatchedPerformers,
+MatchedStudio, Confidence, Resolution, Description, Notes.
+
+### Confidence levels
+
+- **High**: multi-word performer matched (e.g. "Hitomi Tanaka")
+- **Medium**: studio matched, or studio + single-word performer
+- **Low**: single-word performer only, or short/generic studio only
+- **None**: no performer or studio found in the Stash exports (category or UI led)
+
 ## Stash instance details
 
-- **App:** `C:\Users\adam\Desktop\stash-win(1).exe` (v0.27.2)
+- **App:** `C:\Users\adam\Desktop\stash-win.exe` (v0.31.1)
 - **Config dir:** `C:\Users\adam\.stash\`
 - **Web UI:** `http://localhost:9999`
-- **Database:** `C:\Users\adam\.stash\stash-go.sqlite` (schema v68, ~4 GB)
+- **Database:** `C:\Users\adam\.stash\stash-go.sqlite` (schema v85, ~4 GB)
 - **Generated/cache:** `D:\Stash\` (regenerable - not backed up)
 - **Full export:** `D:\Stash\metadata\` (regenerable - not in git)
 - **Media library:** `\\192.168.0.31\Collection\...` (on NAS - separate concern)
 - **NAS backup target:** `\\192.168.0.31\Media\Backups\Stash`
+- **Pre-upgrade DB backup:** `D:\Stash\backups\pre-v0.31.1_20260821_073026` (schema v68, taken before migration to v0.31.1)
+
+## Plugin change management
+
+Third-party Stash plugins (e.g. DupFileManager) are installed to
+`C:\Users\adam\.stash\plugins\community\<PluginName>\` and are not under git
+control in that location. This repo tracks copies of plugin files under
+`plugins/<PluginName>/` so that bug fixes and customisations are version-
+controlled and can be rolled back if needed.
+
+### Layout
+
+```
+plugins/
+  DupFileManager/          # Tracked copy of the live plugin files
+    DupFileManager.py      # Python backend
+    DupFileManager.js      # JavaScript frontend
+    DupFileManager.yml     # Plugin manifest
+    ...
+```
+
+### Workflow for making changes
+
+1. **Edit the live files** at `C:\Users\adam\.stash\plugins\community\<PluginName>\`
+   so changes can be tested immediately in Stash (reload plugins via
+   Settings > Plugins > Reload Plugins, or the GraphQL `reloadPlugins`
+   mutation).
+
+2. **Test in Stash** — verify the fix works and nothing is broken.
+
+3. **If the fix works**, sync the changed files to the repo and commit:
+   ```powershell
+   # Copy changed files from live to repo
+   Copy-Item "C:\Users\adam\.stash\plugins\community\DupFileManager\DupFileManager.py" `
+             "\\192.168.0.31\Media\Files\Repositories\Personal\Stash\plugins\DupFileManager\DupFileManager.py" -Force
+
+   # Commit
+   cd "\\192.168.0.31\Media\Files\Repositories\Personal\Stash"
+   git add plugins/DupFileManager/
+   git commit -m "Fix: <description of the fix>"
+   ```
+
+4. **If the fix breaks something**, revert using the repo:
+   ```powershell
+   cd "\\192.168.0.31\Media\Files\Repositories\Personal\Stash"
+   git checkout -- plugins/DupFileManager/
+
+   # Copy the original (last committed) files back to the live folder
+   Copy-Item "plugins\DupFileManager\DupFileManager.py" `
+             "C:\Users\adam\.stash\plugins\community\DupFileManager\DupFileManager.py" -Force
+
+   # Reload plugins in Stash
+   ```
+
+### Rules
+
+- **Always commit a baseline first** before making any changes, so there is a
+  known-good state to revert to.
+- **Commit after each successful fix** — don't batch multiple fixes into one
+  commit, so individual changes can be reverted independently.
+- **Exclude logs and caches** — the plugin's `.gitignore` already excludes
+  `*.log` and `__pycache__/`. Don't commit temporary files (wrappers, test
+  inputs, etc.).
+- **If Stash's plugin manager updates a plugin** (e.g. a new version appears on
+  CommunityScripts), the live folder will be overwritten. The repo copy
+  preserves our fixes, which can then be re-applied to the new version.
+- **The live folder is the source of truth for what Stash runs.** The repo
+  copy is the version-controlled backup of our changes.
