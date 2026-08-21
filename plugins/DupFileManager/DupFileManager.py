@@ -799,7 +799,7 @@ def writeRowToHtmlReport(fileHtmlReport, DupFile, DupFileToKeep, QtyTagForDel = 
     
     fileHtmlReport.write(f"</tr><!-- ::DuplicateToDelete_SceneID={DupFile['id']}::DuplicateToKeep_SceneID={DupFileToKeep['id']}:: -->\n")
 
-fragmentForSceneDetails = 'id tags {id name ignore_auto_tag} groups {group {name} } performers {name} galleries {id} files {path width height duration size video_codec bit_rate frame_rate} details '
+fragmentForSceneDetails = 'id tags {id name ignore_auto_tag} groups {group {name} } performers {id name} galleries {id} files {path width height duration size video_codec bit_rate frame_rate} details '
 htmlFileData = " paths {screenshot sprite " + htmlPreviewOrStream + "} "
 mergeFieldData = " code director title rating100 date studio {id name} urls "
 fragmentForSceneDetails += mergeFieldData + htmlFileData

@@ -1030,14 +1030,14 @@ class mergeMetadata: # A class to merge scene metadata from source scene to dest
         for item in self.srcData[fieldName]:
             if item not in self.destData[fieldName]:
                 if NotStartWith == None or not item.startswith(NotStartWith):
-                    if excludeName == None or item['name'] not in excludeName:
+                    if excludeName == None or ('name' in item and item['name'] not in excludeName):
                         if fieldName == 'groups':
                             # listToAdd += [{"group_id" : item['group']['id'], "group_name" : item['group']['name']}]
                             listToAdd += [item['group']['id']]
-                            dataAdded += f"{item['group']['id']} "                    
+                            dataAdded += f"{item['group']['id']} "
                         # elif fieldName == 'movies':
                             # listToAdd += [{"movie_id" : item['movie']['id'], "scene_index" : item['scene_index']}]
-                            # dataAdded += f"{item['movie']['id']} "                    
+                            # dataAdded += f"{item['movie']['id']} "
                         elif updateFieldName == None:
                             listToAdd += [item]
                             dataAdded += f"{item} "
