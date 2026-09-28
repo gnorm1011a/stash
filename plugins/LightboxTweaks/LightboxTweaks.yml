@@ -1,0 +1,13 @@
+name: LightboxTweaks
+description: In fullscreen, moves the lightbox page/counter and image/gallery title into a top-left overlay on the image and frees the image to use the full viewport height. Header/footer button bars become hover-reveal overlays. Adds a button to open the current image in the Windows Photos app.
+version: 1.1.0
+url: https://github.com/stashapp/stash/issues/3950
+ui:
+  javascript:
+    - LightboxTweaks.js
+  css:
+    - LightboxTweaks.css
+exec:
+  - python
+  - "{pluginDir}/LightboxTweaks.py"
+interface: raw

@@ -1,0 +1,14 @@
+name: StashDBScrapeByID
+description: >
+  Adds a "Scrape by StashID" button to scene pages and a batch action on the
+  scenes list. Uses the scene's saved StashDB ID as the query string to
+  scrapeSingleScene, which searches StashDB by ID — working around the
+  limitation that "Scrape by fragment" only matches by file fingerprints.
+  Shows a review dialog with field-by-field checkboxes before applying.
+version: 1.0.0
+url: https://github.com/stashapp/stash/issues/3950
+ui:
+  javascript:
+    - StashDBScrapeByID.js
+  css:
+    - StashDBScrapeByID.css

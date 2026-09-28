@@ -1,0 +1,104 @@
+/*
+ * LightboxTweaks
+ * ----------
+ * Applies to both fullscreen and non-fullscreen lightbox.
+ *
+ * Effect:
+ *  - The image area (.Lightbox-display) expands to the full viewport/modal
+ *    height because the top/bottom bars are pulled out of the flex flow and
+ *    become transparent overlays on the image.
+ *  - The page/counter indicator (.Lightbox-header-indicator) and the
+ *    image + gallery title (.Lightbox-footer-center) are relocated to the
+ *    left side of the image as always-visible overlays.
+ *  - All existing controls (options, slideshow, zoom, fullscreen, close,
+ *    O-counter, rating) remain visible, overlaid on the image.
+ */
+
+/* Image area takes the full height now that the bars are pulled out of
+   the flex flow. position: relative + z-index: 10 creates a stacking
+   context below the header/footer overlays so the close button etc. stay
+   clickable. */
+.Lightbox .Lightbox-display {
+  flex: 1 1 auto;
+  height: 100%;
+  position: relative;
+  z-index: 10;
+}
+
+/* Top bar: absolute overlay, transparent so it doesn't obscure the image.
+   Controls remain visible. z-index above the display area. */
+.Lightbox .Lightbox-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 30;
+  background: transparent;
+}
+
+/* Bottom bar: absolute overlay, transparent so it doesn't obscure the image.
+   Controls (O-counter, rating) remain visible. z-index above the display. */
+.Lightbox .Lightbox-footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 30;
+  background: transparent;
+}
+
+/* --- Left-side info overlay: indicator (chapter / Page X/Y, counter) ---
+   Pulled out of the header and pinned to the top-left of the lightbox. */
+.Lightbox .Lightbox-header-indicator {
+  position: fixed;
+  top: 0.5rem;
+  left: 0.75rem;
+  z-index: 40;
+  flex: none;
+  margin-right: 0;
+  text-align: left;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.45);
+  padding: 0.2rem 0.55rem;
+  border-radius: 0.25rem;
+  pointer-events: none;
+  opacity: 1;
+}
+
+/* --- Bottom-right info overlay: image + gallery title ---
+   Positioned within the footer (which is an absolute overlay at bottom: 0)
+   on the right side, vertically centered to align exactly with the rating
+   and O-counter controls in .Lightbox-footer-left. Truncated with ellipsis
+   so long names don't grow the overlay indefinitely. */
+.Lightbox .Lightbox-footer-center {
+  position: absolute;
+  right: 0.75rem;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 40;
+  flex: none;
+  text-align: right;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.45);
+  padding: 0.2rem 0.55rem;
+  border-radius: 0.25rem;
+  pointer-events: none;
+  opacity: 1;
+  max-width: 300px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+/* Keep the title/gallery links clickable (the container itself is
+   pointer-events: none so the overlay doesn't swallow image clicks). */
+.Lightbox .Lightbox-footer-center a {
+  pointer-events: auto;
+  color: #e0e0e0;
+}
+
+/* --- Fullscreen: show navigation indicator at top-left (same as
+   non-fullscreen), but hide the filename/set name for a clean view --- */
+.Lightbox.Lightbox-tweaks-fs .Lightbox-footer-center {
+  display: none;
+}

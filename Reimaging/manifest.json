@@ -1,0 +1,3835 @@
+{
+  "models": [
+    {
+      "id": "gfpgan",
+      "name": "GFPGAN v1.4",
+      "settings": "2x upscale, weight=0.5"
+    },
+    {
+      "id": "realesrgan",
+      "name": "Real-ESRGAN x4plus",
+      "settings": "2x upscale, full image enhancement"
+    },
+    {
+      "id": "codeformer_w0.8",
+      "name": "CodeFormer w=0.8",
+      "settings": "2x upscale, fidelity=0.8 (very high fidelity)"
+    },
+    {
+      "id": "codeformer_w0.7",
+      "name": "CodeFormer w=0.7",
+      "settings": "2x upscale, fidelity=0.7 (high fidelity)"
+    },
+    {
+      "id": "codeformer_w0.5",
+      "name": "CodeFormer w=0.5",
+      "settings": "2x upscale, fidelity=0.5 (balanced)"
+    },
+    {
+      "id": "codeformer_w0",
+      "name": "CodeFormer w=0.0",
+      "settings": "2x upscale, fidelity=0.0 (max quality)"
+    }
+  ],
+  "images": [
+    {
+      "basename": "start-001_003",
+      "filename": "start-001_003.jpg",
+      "original": "To restore/start-001_003.jpg",
+      "models": {
+        "gfpgan": {
+          "name": "GFPGAN v1.4",
+          "settings": "2x upscale, weight=0.5",
+          "restored": "restored_gfpgan/restored_imgs/start-001_003.jpg",
+          "cropped_faces": [
+            "restored_gfpgan/cropped_faces/start-001_003_00.png"
+          ],
+          "restored_faces": [
+            "restored_gfpgan/restored_faces/start-001_003_00.png"
+          ]
+        },
+        "realesrgan": {
+          "name": "Real-ESRGAN x4plus",
+          "settings": "2x upscale, full image enhancement",
+          "restored": "restored_realesrgan//start-001_003_out.jpg",
+          "cropped_faces": [],
+          "restored_faces": []
+        },
+        "codeformer_w0.8": {
+          "name": "CodeFormer w=0.8",
+          "settings": "2x upscale, fidelity=0.8 (very high fidelity)",
+          "restored": "restored_codeformer_w0.8/final_results/start-001_003.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.8/cropped_faces/start-001_003_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.8/restored_faces/start-001_003_00.png"
+          ]
+        },
+        "codeformer_w0.7": {
+          "name": "CodeFormer w=0.7",
+          "settings": "2x upscale, fidelity=0.7 (high fidelity)",
+          "restored": "restored_codeformer_w0.7/final_results/start-001_003.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.7/cropped_faces/start-001_003_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.7/restored_faces/start-001_003_00.png"
+          ]
+        },
+        "codeformer_w0.5": {
+          "name": "CodeFormer w=0.5",
+          "settings": "2x upscale, fidelity=0.5 (balanced)",
+          "restored": "restored_codeformer_w0.5/final_results/start-001_003.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.5/cropped_faces/start-001_003_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.5/restored_faces/start-001_003_00.png"
+          ]
+        },
+        "codeformer_w0": {
+          "name": "CodeFormer w=0.0",
+          "settings": "2x upscale, fidelity=0.0 (max quality)",
+          "restored": "restored_codeformer_w0/final_results/start-001_003.png",
+          "cropped_faces": [
+            "restored_codeformer_w0/cropped_faces/start-001_003_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0/restored_faces/start-001_003_00.png"
+          ]
+        }
+      }
+    },
+    {
+      "basename": "start-001_007",
+      "filename": "start-001_007.jpg",
+      "original": "To restore/start-001_007.jpg",
+      "models": {
+        "gfpgan": {
+          "name": "GFPGAN v1.4",
+          "settings": "2x upscale, weight=0.5",
+          "restored": "restored_gfpgan/restored_imgs/start-001_007.jpg",
+          "cropped_faces": [
+            "restored_gfpgan/cropped_faces/start-001_007_00.png"
+          ],
+          "restored_faces": [
+            "restored_gfpgan/restored_faces/start-001_007_00.png"
+          ]
+        },
+        "realesrgan": {
+          "name": "Real-ESRGAN x4plus",
+          "settings": "2x upscale, full image enhancement",
+          "restored": "restored_realesrgan//start-001_007_out.jpg",
+          "cropped_faces": [],
+          "restored_faces": []
+        },
+        "codeformer_w0.8": {
+          "name": "CodeFormer w=0.8",
+          "settings": "2x upscale, fidelity=0.8 (very high fidelity)",
+          "restored": "restored_codeformer_w0.8/final_results/start-001_007.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.8/cropped_faces/start-001_007_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.8/restored_faces/start-001_007_00.png"
+          ]
+        },
+        "codeformer_w0.7": {
+          "name": "CodeFormer w=0.7",
+          "settings": "2x upscale, fidelity=0.7 (high fidelity)",
+          "restored": "restored_codeformer_w0.7/final_results/start-001_007.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.7/cropped_faces/start-001_007_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.7/restored_faces/start-001_007_00.png"
+          ]
+        },
+        "codeformer_w0.5": {
+          "name": "CodeFormer w=0.5",
+          "settings": "2x upscale, fidelity=0.5 (balanced)",
+          "restored": "restored_codeformer_w0.5/final_results/start-001_007.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.5/cropped_faces/start-001_007_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.5/restored_faces/start-001_007_00.png"
+          ]
+        },
+        "codeformer_w0": {
+          "name": "CodeFormer w=0.0",
+          "settings": "2x upscale, fidelity=0.0 (max quality)",
+          "restored": "restored_codeformer_w0/final_results/start-001_007.png",
+          "cropped_faces": [
+            "restored_codeformer_w0/cropped_faces/start-001_007_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0/restored_faces/start-001_007_00.png"
+          ]
+        }
+      }
+    },
+    {
+      "basename": "start-001_008",
+      "filename": "start-001_008.jpg",
+      "original": "To restore/start-001_008.jpg",
+      "models": {
+        "gfpgan": {
+          "name": "GFPGAN v1.4",
+          "settings": "2x upscale, weight=0.5",
+          "restored": "restored_gfpgan/restored_imgs/start-001_008.jpg",
+          "cropped_faces": [
+            "restored_gfpgan/cropped_faces/start-001_008_00.png"
+          ],
+          "restored_faces": [
+            "restored_gfpgan/restored_faces/start-001_008_00.png"
+          ]
+        },
+        "realesrgan": {
+          "name": "Real-ESRGAN x4plus",
+          "settings": "2x upscale, full image enhancement",
+          "restored": "restored_realesrgan//start-001_008_out.jpg",
+          "cropped_faces": [],
+          "restored_faces": []
+        },
+        "codeformer_w0.8": {
+          "name": "CodeFormer w=0.8",
+          "settings": "2x upscale, fidelity=0.8 (very high fidelity)",
+          "restored": "restored_codeformer_w0.8/final_results/start-001_008.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.8/cropped_faces/start-001_008_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.8/restored_faces/start-001_008_00.png"
+          ]
+        },
+        "codeformer_w0.7": {
+          "name": "CodeFormer w=0.7",
+          "settings": "2x upscale, fidelity=0.7 (high fidelity)",
+          "restored": "restored_codeformer_w0.7/final_results/start-001_008.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.7/cropped_faces/start-001_008_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.7/restored_faces/start-001_008_00.png"
+          ]
+        },
+        "codeformer_w0.5": {
+          "name": "CodeFormer w=0.5",
+          "settings": "2x upscale, fidelity=0.5 (balanced)",
+          "restored": "restored_codeformer_w0.5/final_results/start-001_008.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.5/cropped_faces/start-001_008_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.5/restored_faces/start-001_008_00.png"
+          ]
+        },
+        "codeformer_w0": {
+          "name": "CodeFormer w=0.0",
+          "settings": "2x upscale, fidelity=0.0 (max quality)",
+          "restored": "restored_codeformer_w0/final_results/start-001_008.png",
+          "cropped_faces": [
+            "restored_codeformer_w0/cropped_faces/start-001_008_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0/restored_faces/start-001_008_00.png"
+          ]
+        }
+      }
+    },
+    {
+      "basename": "start-001_011",
+      "filename": "start-001_011.jpg",
+      "original": "To restore/start-001_011.jpg",
+      "models": {
+        "gfpgan": {
+          "name": "GFPGAN v1.4",
+          "settings": "2x upscale, weight=0.5",
+          "restored": "restored_gfpgan/restored_imgs/start-001_011.jpg",
+          "cropped_faces": [
+            "restored_gfpgan/cropped_faces/start-001_011_00.png"
+          ],
+          "restored_faces": [
+            "restored_gfpgan/restored_faces/start-001_011_00.png"
+          ]
+        },
+        "realesrgan": {
+          "name": "Real-ESRGAN x4plus",
+          "settings": "2x upscale, full image enhancement",
+          "restored": "restored_realesrgan//start-001_011_out.jpg",
+          "cropped_faces": [],
+          "restored_faces": []
+        },
+        "codeformer_w0.8": {
+          "name": "CodeFormer w=0.8",
+          "settings": "2x upscale, fidelity=0.8 (very high fidelity)",
+          "restored": "restored_codeformer_w0.8/final_results/start-001_011.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.8/cropped_faces/start-001_011_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.8/restored_faces/start-001_011_00.png"
+          ]
+        },
+        "codeformer_w0.7": {
+          "name": "CodeFormer w=0.7",
+          "settings": "2x upscale, fidelity=0.7 (high fidelity)",
+          "restored": "restored_codeformer_w0.7/final_results/start-001_011.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.7/cropped_faces/start-001_011_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.7/restored_faces/start-001_011_00.png"
+          ]
+        },
+        "codeformer_w0.5": {
+          "name": "CodeFormer w=0.5",
+          "settings": "2x upscale, fidelity=0.5 (balanced)",
+          "restored": "restored_codeformer_w0.5/final_results/start-001_011.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.5/cropped_faces/start-001_011_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.5/restored_faces/start-001_011_00.png"
+          ]
+        },
+        "codeformer_w0": {
+          "name": "CodeFormer w=0.0",
+          "settings": "2x upscale, fidelity=0.0 (max quality)",
+          "restored": "restored_codeformer_w0/final_results/start-001_011.png",
+          "cropped_faces": [
+            "restored_codeformer_w0/cropped_faces/start-001_011_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0/restored_faces/start-001_011_00.png"
+          ]
+        }
+      }
+    },
+    {
+      "basename": "start-001_012",
+      "filename": "start-001_012.jpg",
+      "original": "To restore/start-001_012.jpg",
+      "models": {
+        "gfpgan": {
+          "name": "GFPGAN v1.4",
+          "settings": "2x upscale, weight=0.5",
+          "restored": "restored_gfpgan/restored_imgs/start-001_012.jpg",
+          "cropped_faces": [
+            "restored_gfpgan/cropped_faces/start-001_012_00.png"
+          ],
+          "restored_faces": [
+            "restored_gfpgan/restored_faces/start-001_012_00.png"
+          ]
+        },
+        "realesrgan": {
+          "name": "Real-ESRGAN x4plus",
+          "settings": "2x upscale, full image enhancement",
+          "restored": "restored_realesrgan//start-001_012_out.jpg",
+          "cropped_faces": [],
+          "restored_faces": []
+        },
+        "codeformer_w0.8": {
+          "name": "CodeFormer w=0.8",
+          "settings": "2x upscale, fidelity=0.8 (very high fidelity)",
+          "restored": "restored_codeformer_w0.8/final_results/start-001_012.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.8/cropped_faces/start-001_012_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.8/restored_faces/start-001_012_00.png"
+          ]
+        },
+        "codeformer_w0.7": {
+          "name": "CodeFormer w=0.7",
+          "settings": "2x upscale, fidelity=0.7 (high fidelity)",
+          "restored": "restored_codeformer_w0.7/final_results/start-001_012.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.7/cropped_faces/start-001_012_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.7/restored_faces/start-001_012_00.png"
+          ]
+        },
+        "codeformer_w0.5": {
+          "name": "CodeFormer w=0.5",
+          "settings": "2x upscale, fidelity=0.5 (balanced)",
+          "restored": "restored_codeformer_w0.5/final_results/start-001_012.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.5/cropped_faces/start-001_012_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.5/restored_faces/start-001_012_00.png"
+          ]
+        },
+        "codeformer_w0": {
+          "name": "CodeFormer w=0.0",
+          "settings": "2x upscale, fidelity=0.0 (max quality)",
+          "restored": "restored_codeformer_w0/final_results/start-001_012.png",
+          "cropped_faces": [
+            "restored_codeformer_w0/cropped_faces/start-001_012_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0/restored_faces/start-001_012_00.png"
+          ]
+        }
+      }
+    },
+    {
+      "basename": "start-001_013",
+      "filename": "start-001_013.jpg",
+      "original": "To restore/start-001_013.jpg",
+      "models": {
+        "gfpgan": {
+          "name": "GFPGAN v1.4",
+          "settings": "2x upscale, weight=0.5",
+          "restored": "restored_gfpgan/restored_imgs/start-001_013.jpg",
+          "cropped_faces": [
+            "restored_gfpgan/cropped_faces/start-001_013_00.png"
+          ],
+          "restored_faces": [
+            "restored_gfpgan/restored_faces/start-001_013_00.png"
+          ]
+        },
+        "realesrgan": {
+          "name": "Real-ESRGAN x4plus",
+          "settings": "2x upscale, full image enhancement",
+          "restored": "restored_realesrgan//start-001_013_out.jpg",
+          "cropped_faces": [],
+          "restored_faces": []
+        },
+        "codeformer_w0.8": {
+          "name": "CodeFormer w=0.8",
+          "settings": "2x upscale, fidelity=0.8 (very high fidelity)",
+          "restored": "restored_codeformer_w0.8/final_results/start-001_013.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.8/cropped_faces/start-001_013_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.8/restored_faces/start-001_013_00.png"
+          ]
+        },
+        "codeformer_w0.7": {
+          "name": "CodeFormer w=0.7",
+          "settings": "2x upscale, fidelity=0.7 (high fidelity)",
+          "restored": "restored_codeformer_w0.7/final_results/start-001_013.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.7/cropped_faces/start-001_013_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.7/restored_faces/start-001_013_00.png"
+          ]
+        },
+        "codeformer_w0.5": {
+          "name": "CodeFormer w=0.5",
+          "settings": "2x upscale, fidelity=0.5 (balanced)",
+          "restored": "restored_codeformer_w0.5/final_results/start-001_013.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.5/cropped_faces/start-001_013_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.5/restored_faces/start-001_013_00.png"
+          ]
+        },
+        "codeformer_w0": {
+          "name": "CodeFormer w=0.0",
+          "settings": "2x upscale, fidelity=0.0 (max quality)",
+          "restored": "restored_codeformer_w0/final_results/start-001_013.png",
+          "cropped_faces": [
+            "restored_codeformer_w0/cropped_faces/start-001_013_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0/restored_faces/start-001_013_00.png"
+          ]
+        }
+      }
+    },
+    {
+      "basename": "start-001_015",
+      "filename": "start-001_015.jpg",
+      "original": "To restore/start-001_015.jpg",
+      "models": {
+        "gfpgan": {
+          "name": "GFPGAN v1.4",
+          "settings": "2x upscale, weight=0.5",
+          "restored": "restored_gfpgan/restored_imgs/start-001_015.jpg",
+          "cropped_faces": [
+            "restored_gfpgan/cropped_faces/start-001_015_00.png"
+          ],
+          "restored_faces": [
+            "restored_gfpgan/restored_faces/start-001_015_00.png"
+          ]
+        },
+        "realesrgan": {
+          "name": "Real-ESRGAN x4plus",
+          "settings": "2x upscale, full image enhancement",
+          "restored": "restored_realesrgan//start-001_015_out.jpg",
+          "cropped_faces": [],
+          "restored_faces": []
+        },
+        "codeformer_w0.8": {
+          "name": "CodeFormer w=0.8",
+          "settings": "2x upscale, fidelity=0.8 (very high fidelity)",
+          "restored": "restored_codeformer_w0.8/final_results/start-001_015.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.8/cropped_faces/start-001_015_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.8/restored_faces/start-001_015_00.png"
+          ]
+        },
+        "codeformer_w0.7": {
+          "name": "CodeFormer w=0.7",
+          "settings": "2x upscale, fidelity=0.7 (high fidelity)",
+          "restored": "restored_codeformer_w0.7/final_results/start-001_015.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.7/cropped_faces/start-001_015_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.7/restored_faces/start-001_015_00.png"
+          ]
+        },
+        "codeformer_w0.5": {
+          "name": "CodeFormer w=0.5",
+          "settings": "2x upscale, fidelity=0.5 (balanced)",
+          "restored": "restored_codeformer_w0.5/final_results/start-001_015.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.5/cropped_faces/start-001_015_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.5/restored_faces/start-001_015_00.png"
+          ]
+        },
+        "codeformer_w0": {
+          "name": "CodeFormer w=0.0",
+          "settings": "2x upscale, fidelity=0.0 (max quality)",
+          "restored": "restored_codeformer_w0/final_results/start-001_015.png",
+          "cropped_faces": [
+            "restored_codeformer_w0/cropped_faces/start-001_015_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0/restored_faces/start-001_015_00.png"
+          ]
+        }
+      }
+    },
+    {
+      "basename": "start-001_019",
+      "filename": "start-001_019.jpg",
+      "original": "To restore/start-001_019.jpg",
+      "models": {
+        "gfpgan": {
+          "name": "GFPGAN v1.4",
+          "settings": "2x upscale, weight=0.5",
+          "restored": "restored_gfpgan/restored_imgs/start-001_019.jpg",
+          "cropped_faces": [
+            "restored_gfpgan/cropped_faces/start-001_019_00.png"
+          ],
+          "restored_faces": [
+            "restored_gfpgan/restored_faces/start-001_019_00.png"
+          ]
+        },
+        "realesrgan": {
+          "name": "Real-ESRGAN x4plus",
+          "settings": "2x upscale, full image enhancement",
+          "restored": "restored_realesrgan//start-001_019_out.jpg",
+          "cropped_faces": [],
+          "restored_faces": []
+        },
+        "codeformer_w0.8": {
+          "name": "CodeFormer w=0.8",
+          "settings": "2x upscale, fidelity=0.8 (very high fidelity)",
+          "restored": "restored_codeformer_w0.8/final_results/start-001_019.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.8/cropped_faces/start-001_019_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.8/restored_faces/start-001_019_00.png"
+          ]
+        },
+        "codeformer_w0.7": {
+          "name": "CodeFormer w=0.7",
+          "settings": "2x upscale, fidelity=0.7 (high fidelity)",
+          "restored": "restored_codeformer_w0.7/final_results/start-001_019.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.7/cropped_faces/start-001_019_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.7/restored_faces/start-001_019_00.png"
+          ]
+        },
+        "codeformer_w0.5": {
+          "name": "CodeFormer w=0.5",
+          "settings": "2x upscale, fidelity=0.5 (balanced)",
+          "restored": "restored_codeformer_w0.5/final_results/start-001_019.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.5/cropped_faces/start-001_019_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.5/restored_faces/start-001_019_00.png"
+          ]
+        },
+        "codeformer_w0": {
+          "name": "CodeFormer w=0.0",
+          "settings": "2x upscale, fidelity=0.0 (max quality)",
+          "restored": "restored_codeformer_w0/final_results/start-001_019.png",
+          "cropped_faces": [
+            "restored_codeformer_w0/cropped_faces/start-001_019_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0/restored_faces/start-001_019_00.png"
+          ]
+        }
+      }
+    },
+    {
+      "basename": "start-001_021",
+      "filename": "start-001_021.jpg",
+      "original": "To restore/start-001_021.jpg",
+      "models": {
+        "gfpgan": {
+          "name": "GFPGAN v1.4",
+          "settings": "2x upscale, weight=0.5",
+          "restored": "restored_gfpgan/restored_imgs/start-001_021.jpg",
+          "cropped_faces": [
+            "restored_gfpgan/cropped_faces/start-001_021_00.png"
+          ],
+          "restored_faces": [
+            "restored_gfpgan/restored_faces/start-001_021_00.png"
+          ]
+        },
+        "realesrgan": {
+          "name": "Real-ESRGAN x4plus",
+          "settings": "2x upscale, full image enhancement",
+          "restored": "restored_realesrgan//start-001_021_out.jpg",
+          "cropped_faces": [],
+          "restored_faces": []
+        },
+        "codeformer_w0.8": {
+          "name": "CodeFormer w=0.8",
+          "settings": "2x upscale, fidelity=0.8 (very high fidelity)",
+          "restored": "restored_codeformer_w0.8/final_results/start-001_021.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.8/cropped_faces/start-001_021_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.8/restored_faces/start-001_021_00.png"
+          ]
+        },
+        "codeformer_w0.7": {
+          "name": "CodeFormer w=0.7",
+          "settings": "2x upscale, fidelity=0.7 (high fidelity)",
+          "restored": "restored_codeformer_w0.7/final_results/start-001_021.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.7/cropped_faces/start-001_021_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.7/restored_faces/start-001_021_00.png"
+          ]
+        },
+        "codeformer_w0.5": {
+          "name": "CodeFormer w=0.5",
+          "settings": "2x upscale, fidelity=0.5 (balanced)",
+          "restored": "restored_codeformer_w0.5/final_results/start-001_021.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.5/cropped_faces/start-001_021_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.5/restored_faces/start-001_021_00.png"
+          ]
+        },
+        "codeformer_w0": {
+          "name": "CodeFormer w=0.0",
+          "settings": "2x upscale, fidelity=0.0 (max quality)",
+          "restored": "restored_codeformer_w0/final_results/start-001_021.png",
+          "cropped_faces": [
+            "restored_codeformer_w0/cropped_faces/start-001_021_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0/restored_faces/start-001_021_00.png"
+          ]
+        }
+      }
+    },
+    {
+      "basename": "start-001_021a",
+      "filename": "start-001_021a.jpg",
+      "original": "To restore/start-001_021a.jpg",
+      "models": {
+        "gfpgan": {
+          "name": "GFPGAN v1.4",
+          "settings": "2x upscale, weight=0.5",
+          "restored": "restored_gfpgan/restored_imgs/start-001_021a.jpg",
+          "cropped_faces": [
+            "restored_gfpgan/cropped_faces/start-001_021a_00.png"
+          ],
+          "restored_faces": [
+            "restored_gfpgan/restored_faces/start-001_021a_00.png"
+          ]
+        },
+        "realesrgan": {
+          "name": "Real-ESRGAN x4plus",
+          "settings": "2x upscale, full image enhancement",
+          "restored": "restored_realesrgan//start-001_021a_out.jpg",
+          "cropped_faces": [],
+          "restored_faces": []
+        },
+        "codeformer_w0.8": {
+          "name": "CodeFormer w=0.8",
+          "settings": "2x upscale, fidelity=0.8 (very high fidelity)",
+          "restored": "restored_codeformer_w0.8/final_results/start-001_021a.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.8/cropped_faces/start-001_021a_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.8/restored_faces/start-001_021a_00.png"
+          ]
+        },
+        "codeformer_w0.7": {
+          "name": "CodeFormer w=0.7",
+          "settings": "2x upscale, fidelity=0.7 (high fidelity)",
+          "restored": "restored_codeformer_w0.7/final_results/start-001_021a.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.7/cropped_faces/start-001_021a_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.7/restored_faces/start-001_021a_00.png"
+          ]
+        },
+        "codeformer_w0.5": {
+          "name": "CodeFormer w=0.5",
+          "settings": "2x upscale, fidelity=0.5 (balanced)",
+          "restored": "restored_codeformer_w0.5/final_results/start-001_021a.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.5/cropped_faces/start-001_021a_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.5/restored_faces/start-001_021a_00.png"
+          ]
+        },
+        "codeformer_w0": {
+          "name": "CodeFormer w=0.0",
+          "settings": "2x upscale, fidelity=0.0 (max quality)",
+          "restored": "restored_codeformer_w0/final_results/start-001_021a.png",
+          "cropped_faces": [
+            "restored_codeformer_w0/cropped_faces/start-001_021a_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0/restored_faces/start-001_021a_00.png"
+          ]
+        }
+      }
+    },
+    {
+      "basename": "start-001_026",
+      "filename": "start-001_026.jpg",
+      "original": "To restore/start-001_026.jpg",
+      "models": {
+        "gfpgan": {
+          "name": "GFPGAN v1.4",
+          "settings": "2x upscale, weight=0.5",
+          "restored": "restored_gfpgan/restored_imgs/start-001_026.jpg",
+          "cropped_faces": [
+            "restored_gfpgan/cropped_faces/start-001_026_00.png"
+          ],
+          "restored_faces": [
+            "restored_gfpgan/restored_faces/start-001_026_00.png"
+          ]
+        },
+        "realesrgan": {
+          "name": "Real-ESRGAN x4plus",
+          "settings": "2x upscale, full image enhancement",
+          "restored": "restored_realesrgan//start-001_026_out.jpg",
+          "cropped_faces": [],
+          "restored_faces": []
+        },
+        "codeformer_w0.8": {
+          "name": "CodeFormer w=0.8",
+          "settings": "2x upscale, fidelity=0.8 (very high fidelity)",
+          "restored": "restored_codeformer_w0.8/final_results/start-001_026.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.8/cropped_faces/start-001_026_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.8/restored_faces/start-001_026_00.png"
+          ]
+        },
+        "codeformer_w0.7": {
+          "name": "CodeFormer w=0.7",
+          "settings": "2x upscale, fidelity=0.7 (high fidelity)",
+          "restored": "restored_codeformer_w0.7/final_results/start-001_026.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.7/cropped_faces/start-001_026_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.7/restored_faces/start-001_026_00.png"
+          ]
+        },
+        "codeformer_w0.5": {
+          "name": "CodeFormer w=0.5",
+          "settings": "2x upscale, fidelity=0.5 (balanced)",
+          "restored": "restored_codeformer_w0.5/final_results/start-001_026.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.5/cropped_faces/start-001_026_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.5/restored_faces/start-001_026_00.png"
+          ]
+        },
+        "codeformer_w0": {
+          "name": "CodeFormer w=0.0",
+          "settings": "2x upscale, fidelity=0.0 (max quality)",
+          "restored": "restored_codeformer_w0/final_results/start-001_026.png",
+          "cropped_faces": [
+            "restored_codeformer_w0/cropped_faces/start-001_026_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0/restored_faces/start-001_026_00.png"
+          ]
+        }
+      }
+    },
+    {
+      "basename": "start-001_027",
+      "filename": "start-001_027.jpg",
+      "original": "To restore/start-001_027.jpg",
+      "models": {
+        "gfpgan": {
+          "name": "GFPGAN v1.4",
+          "settings": "2x upscale, weight=0.5",
+          "restored": "restored_gfpgan/restored_imgs/start-001_027.jpg",
+          "cropped_faces": [
+            "restored_gfpgan/cropped_faces/start-001_027_00.png"
+          ],
+          "restored_faces": [
+            "restored_gfpgan/restored_faces/start-001_027_00.png"
+          ]
+        },
+        "realesrgan": {
+          "name": "Real-ESRGAN x4plus",
+          "settings": "2x upscale, full image enhancement",
+          "restored": "restored_realesrgan//start-001_027_out.jpg",
+          "cropped_faces": [],
+          "restored_faces": []
+        },
+        "codeformer_w0.8": {
+          "name": "CodeFormer w=0.8",
+          "settings": "2x upscale, fidelity=0.8 (very high fidelity)",
+          "restored": "restored_codeformer_w0.8/final_results/start-001_027.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.8/cropped_faces/start-001_027_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.8/restored_faces/start-001_027_00.png"
+          ]
+        },
+        "codeformer_w0.7": {
+          "name": "CodeFormer w=0.7",
+          "settings": "2x upscale, fidelity=0.7 (high fidelity)",
+          "restored": "restored_codeformer_w0.7/final_results/start-001_027.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.7/cropped_faces/start-001_027_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.7/restored_faces/start-001_027_00.png"
+          ]
+        },
+        "codeformer_w0.5": {
+          "name": "CodeFormer w=0.5",
+          "settings": "2x upscale, fidelity=0.5 (balanced)",
+          "restored": "restored_codeformer_w0.5/final_results/start-001_027.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.5/cropped_faces/start-001_027_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.5/restored_faces/start-001_027_00.png"
+          ]
+        },
+        "codeformer_w0": {
+          "name": "CodeFormer w=0.0",
+          "settings": "2x upscale, fidelity=0.0 (max quality)",
+          "restored": "restored_codeformer_w0/final_results/start-001_027.png",
+          "cropped_faces": [
+            "restored_codeformer_w0/cropped_faces/start-001_027_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0/restored_faces/start-001_027_00.png"
+          ]
+        }
+      }
+    },
+    {
+      "basename": "start-001_028",
+      "filename": "start-001_028.jpg",
+      "original": "To restore/start-001_028.jpg",
+      "models": {
+        "gfpgan": {
+          "name": "GFPGAN v1.4",
+          "settings": "2x upscale, weight=0.5",
+          "restored": "restored_gfpgan/restored_imgs/start-001_028.jpg",
+          "cropped_faces": [
+            "restored_gfpgan/cropped_faces/start-001_028_00.png"
+          ],
+          "restored_faces": [
+            "restored_gfpgan/restored_faces/start-001_028_00.png"
+          ]
+        },
+        "realesrgan": {
+          "name": "Real-ESRGAN x4plus",
+          "settings": "2x upscale, full image enhancement",
+          "restored": "restored_realesrgan//start-001_028_out.jpg",
+          "cropped_faces": [],
+          "restored_faces": []
+        },
+        "codeformer_w0.8": {
+          "name": "CodeFormer w=0.8",
+          "settings": "2x upscale, fidelity=0.8 (very high fidelity)",
+          "restored": "restored_codeformer_w0.8/final_results/start-001_028.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.8/cropped_faces/start-001_028_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.8/restored_faces/start-001_028_00.png"
+          ]
+        },
+        "codeformer_w0.7": {
+          "name": "CodeFormer w=0.7",
+          "settings": "2x upscale, fidelity=0.7 (high fidelity)",
+          "restored": "restored_codeformer_w0.7/final_results/start-001_028.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.7/cropped_faces/start-001_028_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.7/restored_faces/start-001_028_00.png"
+          ]
+        },
+        "codeformer_w0.5": {
+          "name": "CodeFormer w=0.5",
+          "settings": "2x upscale, fidelity=0.5 (balanced)",
+          "restored": "restored_codeformer_w0.5/final_results/start-001_028.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.5/cropped_faces/start-001_028_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.5/restored_faces/start-001_028_00.png"
+          ]
+        },
+        "codeformer_w0": {
+          "name": "CodeFormer w=0.0",
+          "settings": "2x upscale, fidelity=0.0 (max quality)",
+          "restored": "restored_codeformer_w0/final_results/start-001_028.png",
+          "cropped_faces": [
+            "restored_codeformer_w0/cropped_faces/start-001_028_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0/restored_faces/start-001_028_00.png"
+          ]
+        }
+      }
+    },
+    {
+      "basename": "start-001_030",
+      "filename": "start-001_030.jpg",
+      "original": "To restore/start-001_030.jpg",
+      "models": {
+        "gfpgan": {
+          "name": "GFPGAN v1.4",
+          "settings": "2x upscale, weight=0.5",
+          "restored": "restored_gfpgan/restored_imgs/start-001_030.jpg",
+          "cropped_faces": [
+            "restored_gfpgan/cropped_faces/start-001_030_00.png"
+          ],
+          "restored_faces": [
+            "restored_gfpgan/restored_faces/start-001_030_00.png"
+          ]
+        },
+        "realesrgan": {
+          "name": "Real-ESRGAN x4plus",
+          "settings": "2x upscale, full image enhancement",
+          "restored": "restored_realesrgan//start-001_030_out.jpg",
+          "cropped_faces": [],
+          "restored_faces": []
+        },
+        "codeformer_w0.8": {
+          "name": "CodeFormer w=0.8",
+          "settings": "2x upscale, fidelity=0.8 (very high fidelity)",
+          "restored": "restored_codeformer_w0.8/final_results/start-001_030.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.8/cropped_faces/start-001_030_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.8/restored_faces/start-001_030_00.png"
+          ]
+        },
+        "codeformer_w0.7": {
+          "name": "CodeFormer w=0.7",
+          "settings": "2x upscale, fidelity=0.7 (high fidelity)",
+          "restored": "restored_codeformer_w0.7/final_results/start-001_030.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.7/cropped_faces/start-001_030_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.7/restored_faces/start-001_030_00.png"
+          ]
+        },
+        "codeformer_w0.5": {
+          "name": "CodeFormer w=0.5",
+          "settings": "2x upscale, fidelity=0.5 (balanced)",
+          "restored": "restored_codeformer_w0.5/final_results/start-001_030.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.5/cropped_faces/start-001_030_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.5/restored_faces/start-001_030_00.png"
+          ]
+        },
+        "codeformer_w0": {
+          "name": "CodeFormer w=0.0",
+          "settings": "2x upscale, fidelity=0.0 (max quality)",
+          "restored": "restored_codeformer_w0/final_results/start-001_030.png",
+          "cropped_faces": [
+            "restored_codeformer_w0/cropped_faces/start-001_030_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0/restored_faces/start-001_030_00.png"
+          ]
+        }
+      }
+    },
+    {
+      "basename": "start-001_031",
+      "filename": "start-001_031.jpg",
+      "original": "To restore/start-001_031.jpg",
+      "models": {
+        "gfpgan": {
+          "name": "GFPGAN v1.4",
+          "settings": "2x upscale, weight=0.5",
+          "restored": "restored_gfpgan/restored_imgs/start-001_031.jpg",
+          "cropped_faces": [
+            "restored_gfpgan/cropped_faces/start-001_031_00.png"
+          ],
+          "restored_faces": [
+            "restored_gfpgan/restored_faces/start-001_031_00.png"
+          ]
+        },
+        "realesrgan": {
+          "name": "Real-ESRGAN x4plus",
+          "settings": "2x upscale, full image enhancement",
+          "restored": "restored_realesrgan//start-001_031_out.jpg",
+          "cropped_faces": [],
+          "restored_faces": []
+        },
+        "codeformer_w0.8": {
+          "name": "CodeFormer w=0.8",
+          "settings": "2x upscale, fidelity=0.8 (very high fidelity)",
+          "restored": "restored_codeformer_w0.8/final_results/start-001_031.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.8/cropped_faces/start-001_031_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.8/restored_faces/start-001_031_00.png"
+          ]
+        },
+        "codeformer_w0.7": {
+          "name": "CodeFormer w=0.7",
+          "settings": "2x upscale, fidelity=0.7 (high fidelity)",
+          "restored": "restored_codeformer_w0.7/final_results/start-001_031.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.7/cropped_faces/start-001_031_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.7/restored_faces/start-001_031_00.png"
+          ]
+        },
+        "codeformer_w0.5": {
+          "name": "CodeFormer w=0.5",
+          "settings": "2x upscale, fidelity=0.5 (balanced)",
+          "restored": "restored_codeformer_w0.5/final_results/start-001_031.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.5/cropped_faces/start-001_031_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.5/restored_faces/start-001_031_00.png"
+          ]
+        },
+        "codeformer_w0": {
+          "name": "CodeFormer w=0.0",
+          "settings": "2x upscale, fidelity=0.0 (max quality)",
+          "restored": "restored_codeformer_w0/final_results/start-001_031.png",
+          "cropped_faces": [
+            "restored_codeformer_w0/cropped_faces/start-001_031_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0/restored_faces/start-001_031_00.png"
+          ]
+        }
+      }
+    },
+    {
+      "basename": "start-001_032",
+      "filename": "start-001_032.jpg",
+      "original": "To restore/start-001_032.jpg",
+      "models": {
+        "gfpgan": {
+          "name": "GFPGAN v1.4",
+          "settings": "2x upscale, weight=0.5",
+          "restored": "restored_gfpgan/restored_imgs/start-001_032.jpg",
+          "cropped_faces": [
+            "restored_gfpgan/cropped_faces/start-001_032_00.png"
+          ],
+          "restored_faces": [
+            "restored_gfpgan/restored_faces/start-001_032_00.png"
+          ]
+        },
+        "realesrgan": {
+          "name": "Real-ESRGAN x4plus",
+          "settings": "2x upscale, full image enhancement",
+          "restored": "restored_realesrgan//start-001_032_out.jpg",
+          "cropped_faces": [],
+          "restored_faces": []
+        },
+        "codeformer_w0.8": {
+          "name": "CodeFormer w=0.8",
+          "settings": "2x upscale, fidelity=0.8 (very high fidelity)",
+          "restored": "restored_codeformer_w0.8/final_results/start-001_032.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.8/cropped_faces/start-001_032_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.8/restored_faces/start-001_032_00.png"
+          ]
+        },
+        "codeformer_w0.7": {
+          "name": "CodeFormer w=0.7",
+          "settings": "2x upscale, fidelity=0.7 (high fidelity)",
+          "restored": "restored_codeformer_w0.7/final_results/start-001_032.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.7/cropped_faces/start-001_032_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.7/restored_faces/start-001_032_00.png"
+          ]
+        },
+        "codeformer_w0.5": {
+          "name": "CodeFormer w=0.5",
+          "settings": "2x upscale, fidelity=0.5 (balanced)",
+          "restored": "restored_codeformer_w0.5/final_results/start-001_032.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.5/cropped_faces/start-001_032_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.5/restored_faces/start-001_032_00.png"
+          ]
+        },
+        "codeformer_w0": {
+          "name": "CodeFormer w=0.0",
+          "settings": "2x upscale, fidelity=0.0 (max quality)",
+          "restored": "restored_codeformer_w0/final_results/start-001_032.png",
+          "cropped_faces": [
+            "restored_codeformer_w0/cropped_faces/start-001_032_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0/restored_faces/start-001_032_00.png"
+          ]
+        }
+      }
+    },
+    {
+      "basename": "start-001_033",
+      "filename": "start-001_033.jpg",
+      "original": "To restore/start-001_033.jpg",
+      "models": {
+        "gfpgan": {
+          "name": "GFPGAN v1.4",
+          "settings": "2x upscale, weight=0.5",
+          "restored": "restored_gfpgan/restored_imgs/start-001_033.jpg",
+          "cropped_faces": [
+            "restored_gfpgan/cropped_faces/start-001_033_00.png"
+          ],
+          "restored_faces": [
+            "restored_gfpgan/restored_faces/start-001_033_00.png"
+          ]
+        },
+        "realesrgan": {
+          "name": "Real-ESRGAN x4plus",
+          "settings": "2x upscale, full image enhancement",
+          "restored": "restored_realesrgan//start-001_033_out.jpg",
+          "cropped_faces": [],
+          "restored_faces": []
+        },
+        "codeformer_w0.8": {
+          "name": "CodeFormer w=0.8",
+          "settings": "2x upscale, fidelity=0.8 (very high fidelity)",
+          "restored": "restored_codeformer_w0.8/final_results/start-001_033.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.8/cropped_faces/start-001_033_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.8/restored_faces/start-001_033_00.png"
+          ]
+        },
+        "codeformer_w0.7": {
+          "name": "CodeFormer w=0.7",
+          "settings": "2x upscale, fidelity=0.7 (high fidelity)",
+          "restored": "restored_codeformer_w0.7/final_results/start-001_033.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.7/cropped_faces/start-001_033_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.7/restored_faces/start-001_033_00.png"
+          ]
+        },
+        "codeformer_w0.5": {
+          "name": "CodeFormer w=0.5",
+          "settings": "2x upscale, fidelity=0.5 (balanced)",
+          "restored": "restored_codeformer_w0.5/final_results/start-001_033.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.5/cropped_faces/start-001_033_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.5/restored_faces/start-001_033_00.png"
+          ]
+        },
+        "codeformer_w0": {
+          "name": "CodeFormer w=0.0",
+          "settings": "2x upscale, fidelity=0.0 (max quality)",
+          "restored": "restored_codeformer_w0/final_results/start-001_033.png",
+          "cropped_faces": [
+            "restored_codeformer_w0/cropped_faces/start-001_033_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0/restored_faces/start-001_033_00.png"
+          ]
+        }
+      }
+    },
+    {
+      "basename": "start-001_035",
+      "filename": "start-001_035.jpg",
+      "original": "To restore/start-001_035.jpg",
+      "models": {
+        "gfpgan": {
+          "name": "GFPGAN v1.4",
+          "settings": "2x upscale, weight=0.5",
+          "restored": "restored_gfpgan/restored_imgs/start-001_035.jpg",
+          "cropped_faces": [
+            "restored_gfpgan/cropped_faces/start-001_035_00.png"
+          ],
+          "restored_faces": [
+            "restored_gfpgan/restored_faces/start-001_035_00.png"
+          ]
+        },
+        "realesrgan": {
+          "name": "Real-ESRGAN x4plus",
+          "settings": "2x upscale, full image enhancement",
+          "restored": "restored_realesrgan//start-001_035_out.jpg",
+          "cropped_faces": [],
+          "restored_faces": []
+        },
+        "codeformer_w0.8": {
+          "name": "CodeFormer w=0.8",
+          "settings": "2x upscale, fidelity=0.8 (very high fidelity)",
+          "restored": "restored_codeformer_w0.8/final_results/start-001_035.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.8/cropped_faces/start-001_035_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.8/restored_faces/start-001_035_00.png"
+          ]
+        },
+        "codeformer_w0.7": {
+          "name": "CodeFormer w=0.7",
+          "settings": "2x upscale, fidelity=0.7 (high fidelity)",
+          "restored": "restored_codeformer_w0.7/final_results/start-001_035.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.7/cropped_faces/start-001_035_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.7/restored_faces/start-001_035_00.png"
+          ]
+        },
+        "codeformer_w0.5": {
+          "name": "CodeFormer w=0.5",
+          "settings": "2x upscale, fidelity=0.5 (balanced)",
+          "restored": "restored_codeformer_w0.5/final_results/start-001_035.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.5/cropped_faces/start-001_035_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.5/restored_faces/start-001_035_00.png"
+          ]
+        },
+        "codeformer_w0": {
+          "name": "CodeFormer w=0.0",
+          "settings": "2x upscale, fidelity=0.0 (max quality)",
+          "restored": "restored_codeformer_w0/final_results/start-001_035.png",
+          "cropped_faces": [
+            "restored_codeformer_w0/cropped_faces/start-001_035_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0/restored_faces/start-001_035_00.png"
+          ]
+        }
+      }
+    },
+    {
+      "basename": "start-001_035a",
+      "filename": "start-001_035a.jpg",
+      "original": "To restore/start-001_035a.jpg",
+      "models": {
+        "gfpgan": {
+          "name": "GFPGAN v1.4",
+          "settings": "2x upscale, weight=0.5",
+          "restored": "restored_gfpgan/restored_imgs/start-001_035a.jpg",
+          "cropped_faces": [
+            "restored_gfpgan/cropped_faces/start-001_035a_00.png"
+          ],
+          "restored_faces": [
+            "restored_gfpgan/restored_faces/start-001_035a_00.png"
+          ]
+        },
+        "realesrgan": {
+          "name": "Real-ESRGAN x4plus",
+          "settings": "2x upscale, full image enhancement",
+          "restored": "restored_realesrgan//start-001_035a_out.jpg",
+          "cropped_faces": [],
+          "restored_faces": []
+        },
+        "codeformer_w0.8": {
+          "name": "CodeFormer w=0.8",
+          "settings": "2x upscale, fidelity=0.8 (very high fidelity)",
+          "restored": "restored_codeformer_w0.8/final_results/start-001_035a.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.8/cropped_faces/start-001_035a_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.8/restored_faces/start-001_035a_00.png"
+          ]
+        },
+        "codeformer_w0.7": {
+          "name": "CodeFormer w=0.7",
+          "settings": "2x upscale, fidelity=0.7 (high fidelity)",
+          "restored": "restored_codeformer_w0.7/final_results/start-001_035a.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.7/cropped_faces/start-001_035a_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.7/restored_faces/start-001_035a_00.png"
+          ]
+        },
+        "codeformer_w0.5": {
+          "name": "CodeFormer w=0.5",
+          "settings": "2x upscale, fidelity=0.5 (balanced)",
+          "restored": "restored_codeformer_w0.5/final_results/start-001_035a.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.5/cropped_faces/start-001_035a_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.5/restored_faces/start-001_035a_00.png"
+          ]
+        },
+        "codeformer_w0": {
+          "name": "CodeFormer w=0.0",
+          "settings": "2x upscale, fidelity=0.0 (max quality)",
+          "restored": "restored_codeformer_w0/final_results/start-001_035a.png",
+          "cropped_faces": [
+            "restored_codeformer_w0/cropped_faces/start-001_035a_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0/restored_faces/start-001_035a_00.png"
+          ]
+        }
+      }
+    },
+    {
+      "basename": "start-001_036",
+      "filename": "start-001_036.jpg",
+      "original": "To restore/start-001_036.jpg",
+      "models": {
+        "gfpgan": {
+          "name": "GFPGAN v1.4",
+          "settings": "2x upscale, weight=0.5",
+          "restored": "restored_gfpgan/restored_imgs/start-001_036.jpg",
+          "cropped_faces": [
+            "restored_gfpgan/cropped_faces/start-001_036_00.png"
+          ],
+          "restored_faces": [
+            "restored_gfpgan/restored_faces/start-001_036_00.png"
+          ]
+        },
+        "realesrgan": {
+          "name": "Real-ESRGAN x4plus",
+          "settings": "2x upscale, full image enhancement",
+          "restored": "restored_realesrgan//start-001_036_out.jpg",
+          "cropped_faces": [],
+          "restored_faces": []
+        },
+        "codeformer_w0.8": {
+          "name": "CodeFormer w=0.8",
+          "settings": "2x upscale, fidelity=0.8 (very high fidelity)",
+          "restored": "restored_codeformer_w0.8/final_results/start-001_036.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.8/cropped_faces/start-001_036_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.8/restored_faces/start-001_036_00.png"
+          ]
+        },
+        "codeformer_w0.7": {
+          "name": "CodeFormer w=0.7",
+          "settings": "2x upscale, fidelity=0.7 (high fidelity)",
+          "restored": "restored_codeformer_w0.7/final_results/start-001_036.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.7/cropped_faces/start-001_036_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.7/restored_faces/start-001_036_00.png"
+          ]
+        },
+        "codeformer_w0.5": {
+          "name": "CodeFormer w=0.5",
+          "settings": "2x upscale, fidelity=0.5 (balanced)",
+          "restored": "restored_codeformer_w0.5/final_results/start-001_036.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.5/cropped_faces/start-001_036_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.5/restored_faces/start-001_036_00.png"
+          ]
+        },
+        "codeformer_w0": {
+          "name": "CodeFormer w=0.0",
+          "settings": "2x upscale, fidelity=0.0 (max quality)",
+          "restored": "restored_codeformer_w0/final_results/start-001_036.png",
+          "cropped_faces": [
+            "restored_codeformer_w0/cropped_faces/start-001_036_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0/restored_faces/start-001_036_00.png"
+          ]
+        }
+      }
+    },
+    {
+      "basename": "start-001_037",
+      "filename": "start-001_037.jpg",
+      "original": "To restore/start-001_037.jpg",
+      "models": {
+        "gfpgan": {
+          "name": "GFPGAN v1.4",
+          "settings": "2x upscale, weight=0.5",
+          "restored": "restored_gfpgan/restored_imgs/start-001_037.jpg",
+          "cropped_faces": [
+            "restored_gfpgan/cropped_faces/start-001_037_00.png"
+          ],
+          "restored_faces": [
+            "restored_gfpgan/restored_faces/start-001_037_00.png"
+          ]
+        },
+        "realesrgan": {
+          "name": "Real-ESRGAN x4plus",
+          "settings": "2x upscale, full image enhancement",
+          "restored": "restored_realesrgan//start-001_037_out.jpg",
+          "cropped_faces": [],
+          "restored_faces": []
+        },
+        "codeformer_w0.8": {
+          "name": "CodeFormer w=0.8",
+          "settings": "2x upscale, fidelity=0.8 (very high fidelity)",
+          "restored": "restored_codeformer_w0.8/final_results/start-001_037.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.8/cropped_faces/start-001_037_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.8/restored_faces/start-001_037_00.png"
+          ]
+        },
+        "codeformer_w0.7": {
+          "name": "CodeFormer w=0.7",
+          "settings": "2x upscale, fidelity=0.7 (high fidelity)",
+          "restored": "restored_codeformer_w0.7/final_results/start-001_037.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.7/cropped_faces/start-001_037_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.7/restored_faces/start-001_037_00.png"
+          ]
+        },
+        "codeformer_w0.5": {
+          "name": "CodeFormer w=0.5",
+          "settings": "2x upscale, fidelity=0.5 (balanced)",
+          "restored": "restored_codeformer_w0.5/final_results/start-001_037.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.5/cropped_faces/start-001_037_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.5/restored_faces/start-001_037_00.png"
+          ]
+        },
+        "codeformer_w0": {
+          "name": "CodeFormer w=0.0",
+          "settings": "2x upscale, fidelity=0.0 (max quality)",
+          "restored": "restored_codeformer_w0/final_results/start-001_037.png",
+          "cropped_faces": [
+            "restored_codeformer_w0/cropped_faces/start-001_037_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0/restored_faces/start-001_037_00.png"
+          ]
+        }
+      }
+    },
+    {
+      "basename": "start-001_039",
+      "filename": "start-001_039.jpg",
+      "original": "To restore/start-001_039.jpg",
+      "models": {
+        "gfpgan": {
+          "name": "GFPGAN v1.4",
+          "settings": "2x upscale, weight=0.5",
+          "restored": "restored_gfpgan/restored_imgs/start-001_039.jpg",
+          "cropped_faces": [
+            "restored_gfpgan/cropped_faces/start-001_039_00.png"
+          ],
+          "restored_faces": [
+            "restored_gfpgan/restored_faces/start-001_039_00.png"
+          ]
+        },
+        "realesrgan": {
+          "name": "Real-ESRGAN x4plus",
+          "settings": "2x upscale, full image enhancement",
+          "restored": "restored_realesrgan//start-001_039_out.jpg",
+          "cropped_faces": [],
+          "restored_faces": []
+        },
+        "codeformer_w0.8": {
+          "name": "CodeFormer w=0.8",
+          "settings": "2x upscale, fidelity=0.8 (very high fidelity)",
+          "restored": "restored_codeformer_w0.8/final_results/start-001_039.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.8/cropped_faces/start-001_039_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.8/restored_faces/start-001_039_00.png"
+          ]
+        },
+        "codeformer_w0.7": {
+          "name": "CodeFormer w=0.7",
+          "settings": "2x upscale, fidelity=0.7 (high fidelity)",
+          "restored": "restored_codeformer_w0.7/final_results/start-001_039.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.7/cropped_faces/start-001_039_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.7/restored_faces/start-001_039_00.png"
+          ]
+        },
+        "codeformer_w0.5": {
+          "name": "CodeFormer w=0.5",
+          "settings": "2x upscale, fidelity=0.5 (balanced)",
+          "restored": "restored_codeformer_w0.5/final_results/start-001_039.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.5/cropped_faces/start-001_039_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.5/restored_faces/start-001_039_00.png"
+          ]
+        },
+        "codeformer_w0": {
+          "name": "CodeFormer w=0.0",
+          "settings": "2x upscale, fidelity=0.0 (max quality)",
+          "restored": "restored_codeformer_w0/final_results/start-001_039.png",
+          "cropped_faces": [
+            "restored_codeformer_w0/cropped_faces/start-001_039_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0/restored_faces/start-001_039_00.png"
+          ]
+        }
+      }
+    },
+    {
+      "basename": "start-001_040",
+      "filename": "start-001_040.jpg",
+      "original": "To restore/start-001_040.jpg",
+      "models": {
+        "gfpgan": {
+          "name": "GFPGAN v1.4",
+          "settings": "2x upscale, weight=0.5",
+          "restored": "restored_gfpgan/restored_imgs/start-001_040.jpg",
+          "cropped_faces": [
+            "restored_gfpgan/cropped_faces/start-001_040_00.png"
+          ],
+          "restored_faces": [
+            "restored_gfpgan/restored_faces/start-001_040_00.png"
+          ]
+        },
+        "realesrgan": {
+          "name": "Real-ESRGAN x4plus",
+          "settings": "2x upscale, full image enhancement",
+          "restored": "restored_realesrgan//start-001_040_out.jpg",
+          "cropped_faces": [],
+          "restored_faces": []
+        },
+        "codeformer_w0.8": {
+          "name": "CodeFormer w=0.8",
+          "settings": "2x upscale, fidelity=0.8 (very high fidelity)",
+          "restored": "restored_codeformer_w0.8/final_results/start-001_040.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.8/cropped_faces/start-001_040_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.8/restored_faces/start-001_040_00.png"
+          ]
+        },
+        "codeformer_w0.7": {
+          "name": "CodeFormer w=0.7",
+          "settings": "2x upscale, fidelity=0.7 (high fidelity)",
+          "restored": "restored_codeformer_w0.7/final_results/start-001_040.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.7/cropped_faces/start-001_040_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.7/restored_faces/start-001_040_00.png"
+          ]
+        },
+        "codeformer_w0.5": {
+          "name": "CodeFormer w=0.5",
+          "settings": "2x upscale, fidelity=0.5 (balanced)",
+          "restored": "restored_codeformer_w0.5/final_results/start-001_040.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.5/cropped_faces/start-001_040_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.5/restored_faces/start-001_040_00.png"
+          ]
+        },
+        "codeformer_w0": {
+          "name": "CodeFormer w=0.0",
+          "settings": "2x upscale, fidelity=0.0 (max quality)",
+          "restored": "restored_codeformer_w0/final_results/start-001_040.png",
+          "cropped_faces": [
+            "restored_codeformer_w0/cropped_faces/start-001_040_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0/restored_faces/start-001_040_00.png"
+          ]
+        }
+      }
+    },
+    {
+      "basename": "start-001_044",
+      "filename": "start-001_044.jpg",
+      "original": "To restore/start-001_044.jpg",
+      "models": {
+        "gfpgan": {
+          "name": "GFPGAN v1.4",
+          "settings": "2x upscale, weight=0.5",
+          "restored": "restored_gfpgan/restored_imgs/start-001_044.jpg",
+          "cropped_faces": [
+            "restored_gfpgan/cropped_faces/start-001_044_00.png"
+          ],
+          "restored_faces": [
+            "restored_gfpgan/restored_faces/start-001_044_00.png"
+          ]
+        },
+        "realesrgan": {
+          "name": "Real-ESRGAN x4plus",
+          "settings": "2x upscale, full image enhancement",
+          "restored": "restored_realesrgan//start-001_044_out.jpg",
+          "cropped_faces": [],
+          "restored_faces": []
+        },
+        "codeformer_w0.8": {
+          "name": "CodeFormer w=0.8",
+          "settings": "2x upscale, fidelity=0.8 (very high fidelity)",
+          "restored": "restored_codeformer_w0.8/final_results/start-001_044.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.8/cropped_faces/start-001_044_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.8/restored_faces/start-001_044_00.png"
+          ]
+        },
+        "codeformer_w0.7": {
+          "name": "CodeFormer w=0.7",
+          "settings": "2x upscale, fidelity=0.7 (high fidelity)",
+          "restored": "restored_codeformer_w0.7/final_results/start-001_044.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.7/cropped_faces/start-001_044_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.7/restored_faces/start-001_044_00.png"
+          ]
+        },
+        "codeformer_w0.5": {
+          "name": "CodeFormer w=0.5",
+          "settings": "2x upscale, fidelity=0.5 (balanced)",
+          "restored": "restored_codeformer_w0.5/final_results/start-001_044.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.5/cropped_faces/start-001_044_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.5/restored_faces/start-001_044_00.png"
+          ]
+        },
+        "codeformer_w0": {
+          "name": "CodeFormer w=0.0",
+          "settings": "2x upscale, fidelity=0.0 (max quality)",
+          "restored": "restored_codeformer_w0/final_results/start-001_044.png",
+          "cropped_faces": [
+            "restored_codeformer_w0/cropped_faces/start-001_044_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0/restored_faces/start-001_044_00.png"
+          ]
+        }
+      }
+    },
+    {
+      "basename": "start-001_057",
+      "filename": "start-001_057.jpg",
+      "original": "To restore/start-001_057.jpg",
+      "models": {
+        "gfpgan": {
+          "name": "GFPGAN v1.4",
+          "settings": "2x upscale, weight=0.5",
+          "restored": "restored_gfpgan/restored_imgs/start-001_057.jpg",
+          "cropped_faces": [
+            "restored_gfpgan/cropped_faces/start-001_057_00.png"
+          ],
+          "restored_faces": [
+            "restored_gfpgan/restored_faces/start-001_057_00.png"
+          ]
+        },
+        "realesrgan": {
+          "name": "Real-ESRGAN x4plus",
+          "settings": "2x upscale, full image enhancement",
+          "restored": "restored_realesrgan//start-001_057_out.jpg",
+          "cropped_faces": [],
+          "restored_faces": []
+        },
+        "codeformer_w0.8": {
+          "name": "CodeFormer w=0.8",
+          "settings": "2x upscale, fidelity=0.8 (very high fidelity)",
+          "restored": "restored_codeformer_w0.8/final_results/start-001_057.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.8/cropped_faces/start-001_057_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.8/restored_faces/start-001_057_00.png"
+          ]
+        },
+        "codeformer_w0.7": {
+          "name": "CodeFormer w=0.7",
+          "settings": "2x upscale, fidelity=0.7 (high fidelity)",
+          "restored": "restored_codeformer_w0.7/final_results/start-001_057.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.7/cropped_faces/start-001_057_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.7/restored_faces/start-001_057_00.png"
+          ]
+        },
+        "codeformer_w0.5": {
+          "name": "CodeFormer w=0.5",
+          "settings": "2x upscale, fidelity=0.5 (balanced)",
+          "restored": "restored_codeformer_w0.5/final_results/start-001_057.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.5/cropped_faces/start-001_057_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.5/restored_faces/start-001_057_00.png"
+          ]
+        },
+        "codeformer_w0": {
+          "name": "CodeFormer w=0.0",
+          "settings": "2x upscale, fidelity=0.0 (max quality)",
+          "restored": "restored_codeformer_w0/final_results/start-001_057.png",
+          "cropped_faces": [
+            "restored_codeformer_w0/cropped_faces/start-001_057_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0/restored_faces/start-001_057_00.png"
+          ]
+        }
+      }
+    },
+    {
+      "basename": "start-001_058",
+      "filename": "start-001_058.jpg",
+      "original": "To restore/start-001_058.jpg",
+      "models": {
+        "gfpgan": {
+          "name": "GFPGAN v1.4",
+          "settings": "2x upscale, weight=0.5",
+          "restored": "restored_gfpgan/restored_imgs/start-001_058.jpg",
+          "cropped_faces": [
+            "restored_gfpgan/cropped_faces/start-001_058_00.png"
+          ],
+          "restored_faces": [
+            "restored_gfpgan/restored_faces/start-001_058_00.png"
+          ]
+        },
+        "realesrgan": {
+          "name": "Real-ESRGAN x4plus",
+          "settings": "2x upscale, full image enhancement",
+          "restored": "restored_realesrgan//start-001_058_out.jpg",
+          "cropped_faces": [],
+          "restored_faces": []
+        },
+        "codeformer_w0.8": {
+          "name": "CodeFormer w=0.8",
+          "settings": "2x upscale, fidelity=0.8 (very high fidelity)",
+          "restored": "restored_codeformer_w0.8/final_results/start-001_058.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.8/cropped_faces/start-001_058_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.8/restored_faces/start-001_058_00.png"
+          ]
+        },
+        "codeformer_w0.7": {
+          "name": "CodeFormer w=0.7",
+          "settings": "2x upscale, fidelity=0.7 (high fidelity)",
+          "restored": "restored_codeformer_w0.7/final_results/start-001_058.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.7/cropped_faces/start-001_058_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.7/restored_faces/start-001_058_00.png"
+          ]
+        },
+        "codeformer_w0.5": {
+          "name": "CodeFormer w=0.5",
+          "settings": "2x upscale, fidelity=0.5 (balanced)",
+          "restored": "restored_codeformer_w0.5/final_results/start-001_058.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.5/cropped_faces/start-001_058_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.5/restored_faces/start-001_058_00.png"
+          ]
+        },
+        "codeformer_w0": {
+          "name": "CodeFormer w=0.0",
+          "settings": "2x upscale, fidelity=0.0 (max quality)",
+          "restored": "restored_codeformer_w0/final_results/start-001_058.png",
+          "cropped_faces": [
+            "restored_codeformer_w0/cropped_faces/start-001_058_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0/restored_faces/start-001_058_00.png"
+          ]
+        }
+      }
+    },
+    {
+      "basename": "start-002_001",
+      "filename": "start-002_001.jpg",
+      "original": "To restore/start-002_001.jpg",
+      "models": {
+        "gfpgan": {
+          "name": "GFPGAN v1.4",
+          "settings": "2x upscale, weight=0.5",
+          "restored": "restored_gfpgan/restored_imgs/start-002_001.jpg",
+          "cropped_faces": [
+            "restored_gfpgan/cropped_faces/start-002_001_00.png",
+            "restored_gfpgan/cropped_faces/start-002_001_01.png"
+          ],
+          "restored_faces": [
+            "restored_gfpgan/restored_faces/start-002_001_00.png",
+            "restored_gfpgan/restored_faces/start-002_001_01.png"
+          ]
+        },
+        "realesrgan": {
+          "name": "Real-ESRGAN x4plus",
+          "settings": "2x upscale, full image enhancement",
+          "restored": "restored_realesrgan//start-002_001_out.jpg",
+          "cropped_faces": [],
+          "restored_faces": []
+        },
+        "codeformer_w0.8": {
+          "name": "CodeFormer w=0.8",
+          "settings": "2x upscale, fidelity=0.8 (very high fidelity)",
+          "restored": "restored_codeformer_w0.8/final_results/start-002_001.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.8/cropped_faces/start-002_001_00.png",
+            "restored_codeformer_w0.8/cropped_faces/start-002_001_01.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.8/restored_faces/start-002_001_00.png",
+            "restored_codeformer_w0.8/restored_faces/start-002_001_01.png"
+          ]
+        },
+        "codeformer_w0.7": {
+          "name": "CodeFormer w=0.7",
+          "settings": "2x upscale, fidelity=0.7 (high fidelity)",
+          "restored": "restored_codeformer_w0.7/final_results/start-002_001.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.7/cropped_faces/start-002_001_00.png",
+            "restored_codeformer_w0.7/cropped_faces/start-002_001_01.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.7/restored_faces/start-002_001_00.png",
+            "restored_codeformer_w0.7/restored_faces/start-002_001_01.png"
+          ]
+        },
+        "codeformer_w0.5": {
+          "name": "CodeFormer w=0.5",
+          "settings": "2x upscale, fidelity=0.5 (balanced)",
+          "restored": "restored_codeformer_w0.5/final_results/start-002_001.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.5/cropped_faces/start-002_001_00.png",
+            "restored_codeformer_w0.5/cropped_faces/start-002_001_01.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.5/restored_faces/start-002_001_00.png",
+            "restored_codeformer_w0.5/restored_faces/start-002_001_01.png"
+          ]
+        },
+        "codeformer_w0": {
+          "name": "CodeFormer w=0.0",
+          "settings": "2x upscale, fidelity=0.0 (max quality)",
+          "restored": "restored_codeformer_w0/final_results/start-002_001.png",
+          "cropped_faces": [
+            "restored_codeformer_w0/cropped_faces/start-002_001_00.png",
+            "restored_codeformer_w0/cropped_faces/start-002_001_01.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0/restored_faces/start-002_001_00.png",
+            "restored_codeformer_w0/restored_faces/start-002_001_01.png"
+          ]
+        }
+      }
+    },
+    {
+      "basename": "start-002_020",
+      "filename": "start-002_020.jpg",
+      "original": "To restore/start-002_020.jpg",
+      "models": {
+        "gfpgan": {
+          "name": "GFPGAN v1.4",
+          "settings": "2x upscale, weight=0.5",
+          "restored": "restored_gfpgan/restored_imgs/start-002_020.jpg",
+          "cropped_faces": [
+            "restored_gfpgan/cropped_faces/start-002_020_00.png"
+          ],
+          "restored_faces": [
+            "restored_gfpgan/restored_faces/start-002_020_00.png"
+          ]
+        },
+        "realesrgan": {
+          "name": "Real-ESRGAN x4plus",
+          "settings": "2x upscale, full image enhancement",
+          "restored": "restored_realesrgan//start-002_020_out.jpg",
+          "cropped_faces": [],
+          "restored_faces": []
+        },
+        "codeformer_w0.8": {
+          "name": "CodeFormer w=0.8",
+          "settings": "2x upscale, fidelity=0.8 (very high fidelity)",
+          "restored": "restored_codeformer_w0.8/final_results/start-002_020.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.8/cropped_faces/start-002_020_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.8/restored_faces/start-002_020_00.png"
+          ]
+        },
+        "codeformer_w0.7": {
+          "name": "CodeFormer w=0.7",
+          "settings": "2x upscale, fidelity=0.7 (high fidelity)",
+          "restored": "restored_codeformer_w0.7/final_results/start-002_020.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.7/cropped_faces/start-002_020_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.7/restored_faces/start-002_020_00.png"
+          ]
+        },
+        "codeformer_w0.5": {
+          "name": "CodeFormer w=0.5",
+          "settings": "2x upscale, fidelity=0.5 (balanced)",
+          "restored": "restored_codeformer_w0.5/final_results/start-002_020.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.5/cropped_faces/start-002_020_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.5/restored_faces/start-002_020_00.png"
+          ]
+        },
+        "codeformer_w0": {
+          "name": "CodeFormer w=0.0",
+          "settings": "2x upscale, fidelity=0.0 (max quality)",
+          "restored": "restored_codeformer_w0/final_results/start-002_020.png",
+          "cropped_faces": [
+            "restored_codeformer_w0/cropped_faces/start-002_020_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0/restored_faces/start-002_020_00.png"
+          ]
+        }
+      }
+    },
+    {
+      "basename": "start-002_021",
+      "filename": "start-002_021.jpg",
+      "original": "To restore/start-002_021.jpg",
+      "models": {
+        "gfpgan": {
+          "name": "GFPGAN v1.4",
+          "settings": "2x upscale, weight=0.5",
+          "restored": "restored_gfpgan/restored_imgs/start-002_021.jpg",
+          "cropped_faces": [
+            "restored_gfpgan/cropped_faces/start-002_021_00.png"
+          ],
+          "restored_faces": [
+            "restored_gfpgan/restored_faces/start-002_021_00.png"
+          ]
+        },
+        "realesrgan": {
+          "name": "Real-ESRGAN x4plus",
+          "settings": "2x upscale, full image enhancement",
+          "restored": "restored_realesrgan//start-002_021_out.jpg",
+          "cropped_faces": [],
+          "restored_faces": []
+        },
+        "codeformer_w0.8": {
+          "name": "CodeFormer w=0.8",
+          "settings": "2x upscale, fidelity=0.8 (very high fidelity)",
+          "restored": "restored_codeformer_w0.8/final_results/start-002_021.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.8/cropped_faces/start-002_021_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.8/restored_faces/start-002_021_00.png"
+          ]
+        },
+        "codeformer_w0.7": {
+          "name": "CodeFormer w=0.7",
+          "settings": "2x upscale, fidelity=0.7 (high fidelity)",
+          "restored": "restored_codeformer_w0.7/final_results/start-002_021.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.7/cropped_faces/start-002_021_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.7/restored_faces/start-002_021_00.png"
+          ]
+        },
+        "codeformer_w0.5": {
+          "name": "CodeFormer w=0.5",
+          "settings": "2x upscale, fidelity=0.5 (balanced)",
+          "restored": "restored_codeformer_w0.5/final_results/start-002_021.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.5/cropped_faces/start-002_021_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.5/restored_faces/start-002_021_00.png"
+          ]
+        },
+        "codeformer_w0": {
+          "name": "CodeFormer w=0.0",
+          "settings": "2x upscale, fidelity=0.0 (max quality)",
+          "restored": "restored_codeformer_w0/final_results/start-002_021.png",
+          "cropped_faces": [
+            "restored_codeformer_w0/cropped_faces/start-002_021_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0/restored_faces/start-002_021_00.png"
+          ]
+        }
+      }
+    },
+    {
+      "basename": "start-002_060",
+      "filename": "start-002_060.jpg",
+      "original": "To restore/start-002_060.jpg",
+      "models": {
+        "gfpgan": {
+          "name": "GFPGAN v1.4",
+          "settings": "2x upscale, weight=0.5",
+          "restored": "restored_gfpgan/restored_imgs/start-002_060.jpg",
+          "cropped_faces": [
+            "restored_gfpgan/cropped_faces/start-002_060_00.png"
+          ],
+          "restored_faces": [
+            "restored_gfpgan/restored_faces/start-002_060_00.png"
+          ]
+        },
+        "realesrgan": {
+          "name": "Real-ESRGAN x4plus",
+          "settings": "2x upscale, full image enhancement",
+          "restored": "restored_realesrgan//start-002_060_out.jpg",
+          "cropped_faces": [],
+          "restored_faces": []
+        },
+        "codeformer_w0.8": {
+          "name": "CodeFormer w=0.8",
+          "settings": "2x upscale, fidelity=0.8 (very high fidelity)",
+          "restored": "restored_codeformer_w0.8/final_results/start-002_060.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.8/cropped_faces/start-002_060_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.8/restored_faces/start-002_060_00.png"
+          ]
+        },
+        "codeformer_w0.7": {
+          "name": "CodeFormer w=0.7",
+          "settings": "2x upscale, fidelity=0.7 (high fidelity)",
+          "restored": "restored_codeformer_w0.7/final_results/start-002_060.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.7/cropped_faces/start-002_060_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.7/restored_faces/start-002_060_00.png"
+          ]
+        },
+        "codeformer_w0.5": {
+          "name": "CodeFormer w=0.5",
+          "settings": "2x upscale, fidelity=0.5 (balanced)",
+          "restored": "restored_codeformer_w0.5/final_results/start-002_060.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.5/cropped_faces/start-002_060_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.5/restored_faces/start-002_060_00.png"
+          ]
+        },
+        "codeformer_w0": {
+          "name": "CodeFormer w=0.0",
+          "settings": "2x upscale, fidelity=0.0 (max quality)",
+          "restored": "restored_codeformer_w0/final_results/start-002_060.png",
+          "cropped_faces": [
+            "restored_codeformer_w0/cropped_faces/start-002_060_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0/restored_faces/start-002_060_00.png"
+          ]
+        }
+      }
+    },
+    {
+      "basename": "start-002_061",
+      "filename": "start-002_061.jpg",
+      "original": "To restore/start-002_061.jpg",
+      "models": {
+        "gfpgan": {
+          "name": "GFPGAN v1.4",
+          "settings": "2x upscale, weight=0.5",
+          "restored": "restored_gfpgan/restored_imgs/start-002_061.jpg",
+          "cropped_faces": [
+            "restored_gfpgan/cropped_faces/start-002_061_00.png"
+          ],
+          "restored_faces": [
+            "restored_gfpgan/restored_faces/start-002_061_00.png"
+          ]
+        },
+        "realesrgan": {
+          "name": "Real-ESRGAN x4plus",
+          "settings": "2x upscale, full image enhancement",
+          "restored": "restored_realesrgan//start-002_061_out.jpg",
+          "cropped_faces": [],
+          "restored_faces": []
+        },
+        "codeformer_w0.8": {
+          "name": "CodeFormer w=0.8",
+          "settings": "2x upscale, fidelity=0.8 (very high fidelity)",
+          "restored": "restored_codeformer_w0.8/final_results/start-002_061.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.8/cropped_faces/start-002_061_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.8/restored_faces/start-002_061_00.png"
+          ]
+        },
+        "codeformer_w0.7": {
+          "name": "CodeFormer w=0.7",
+          "settings": "2x upscale, fidelity=0.7 (high fidelity)",
+          "restored": "restored_codeformer_w0.7/final_results/start-002_061.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.7/cropped_faces/start-002_061_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.7/restored_faces/start-002_061_00.png"
+          ]
+        },
+        "codeformer_w0.5": {
+          "name": "CodeFormer w=0.5",
+          "settings": "2x upscale, fidelity=0.5 (balanced)",
+          "restored": "restored_codeformer_w0.5/final_results/start-002_061.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.5/cropped_faces/start-002_061_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.5/restored_faces/start-002_061_00.png"
+          ]
+        },
+        "codeformer_w0": {
+          "name": "CodeFormer w=0.0",
+          "settings": "2x upscale, fidelity=0.0 (max quality)",
+          "restored": "restored_codeformer_w0/final_results/start-002_061.png",
+          "cropped_faces": [
+            "restored_codeformer_w0/cropped_faces/start-002_061_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0/restored_faces/start-002_061_00.png"
+          ]
+        }
+      }
+    },
+    {
+      "basename": "start-01image",
+      "filename": "start-01image.jpg",
+      "original": "To restore/start-01image.jpg",
+      "models": {
+        "gfpgan": {
+          "name": "GFPGAN v1.4",
+          "settings": "2x upscale, weight=0.5",
+          "restored": "restored_gfpgan/restored_imgs/start-01image.jpg",
+          "cropped_faces": [
+            "restored_gfpgan/cropped_faces/start-01image_00.png"
+          ],
+          "restored_faces": [
+            "restored_gfpgan/restored_faces/start-01image_00.png"
+          ]
+        },
+        "realesrgan": {
+          "name": "Real-ESRGAN x4plus",
+          "settings": "2x upscale, full image enhancement",
+          "restored": "restored_realesrgan//start-01image_out.jpg",
+          "cropped_faces": [],
+          "restored_faces": []
+        },
+        "codeformer_w0.8": {
+          "name": "CodeFormer w=0.8",
+          "settings": "2x upscale, fidelity=0.8 (very high fidelity)",
+          "restored": "restored_codeformer_w0.8/final_results/start-01image.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.8/cropped_faces/start-01image_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.8/restored_faces/start-01image_00.png"
+          ]
+        },
+        "codeformer_w0.7": {
+          "name": "CodeFormer w=0.7",
+          "settings": "2x upscale, fidelity=0.7 (high fidelity)",
+          "restored": "restored_codeformer_w0.7/final_results/start-01image.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.7/cropped_faces/start-01image_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.7/restored_faces/start-01image_00.png"
+          ]
+        },
+        "codeformer_w0.5": {
+          "name": "CodeFormer w=0.5",
+          "settings": "2x upscale, fidelity=0.5 (balanced)",
+          "restored": "restored_codeformer_w0.5/final_results/start-01image.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.5/cropped_faces/start-01image_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.5/restored_faces/start-01image_00.png"
+          ]
+        },
+        "codeformer_w0": {
+          "name": "CodeFormer w=0.0",
+          "settings": "2x upscale, fidelity=0.0 (max quality)",
+          "restored": "restored_codeformer_w0/final_results/start-01image.png",
+          "cropped_faces": [
+            "restored_codeformer_w0/cropped_faces/start-01image_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0/restored_faces/start-01image_00.png"
+          ]
+        }
+      }
+    },
+    {
+      "basename": "start-02image",
+      "filename": "start-02image.jpg",
+      "original": "To restore/start-02image.jpg",
+      "models": {
+        "gfpgan": {
+          "name": "GFPGAN v1.4",
+          "settings": "2x upscale, weight=0.5",
+          "restored": "restored_gfpgan/restored_imgs/start-02image.jpg",
+          "cropped_faces": [
+            "restored_gfpgan/cropped_faces/start-02image_00.png"
+          ],
+          "restored_faces": [
+            "restored_gfpgan/restored_faces/start-02image_00.png"
+          ]
+        },
+        "realesrgan": {
+          "name": "Real-ESRGAN x4plus",
+          "settings": "2x upscale, full image enhancement",
+          "restored": "restored_realesrgan//start-02image_out.jpg",
+          "cropped_faces": [],
+          "restored_faces": []
+        },
+        "codeformer_w0.8": {
+          "name": "CodeFormer w=0.8",
+          "settings": "2x upscale, fidelity=0.8 (very high fidelity)",
+          "restored": "restored_codeformer_w0.8/final_results/start-02image.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.8/cropped_faces/start-02image_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.8/restored_faces/start-02image_00.png"
+          ]
+        },
+        "codeformer_w0.7": {
+          "name": "CodeFormer w=0.7",
+          "settings": "2x upscale, fidelity=0.7 (high fidelity)",
+          "restored": "restored_codeformer_w0.7/final_results/start-02image.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.7/cropped_faces/start-02image_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.7/restored_faces/start-02image_00.png"
+          ]
+        },
+        "codeformer_w0.5": {
+          "name": "CodeFormer w=0.5",
+          "settings": "2x upscale, fidelity=0.5 (balanced)",
+          "restored": "restored_codeformer_w0.5/final_results/start-02image.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.5/cropped_faces/start-02image_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.5/restored_faces/start-02image_00.png"
+          ]
+        },
+        "codeformer_w0": {
+          "name": "CodeFormer w=0.0",
+          "settings": "2x upscale, fidelity=0.0 (max quality)",
+          "restored": "restored_codeformer_w0/final_results/start-02image.png",
+          "cropped_faces": [
+            "restored_codeformer_w0/cropped_faces/start-02image_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0/restored_faces/start-02image_00.png"
+          ]
+        }
+      }
+    },
+    {
+      "basename": "start-03a",
+      "filename": "start-03a.jpg",
+      "original": "To restore/start-03a.jpg",
+      "models": {
+        "gfpgan": {
+          "name": "GFPGAN v1.4",
+          "settings": "2x upscale, weight=0.5",
+          "restored": "restored_gfpgan/restored_imgs/start-03a.jpg",
+          "cropped_faces": [
+            "restored_gfpgan/cropped_faces/start-03a_00.png"
+          ],
+          "restored_faces": [
+            "restored_gfpgan/restored_faces/start-03a_00.png"
+          ]
+        },
+        "realesrgan": {
+          "name": "Real-ESRGAN x4plus",
+          "settings": "2x upscale, full image enhancement",
+          "restored": "restored_realesrgan//start-03a_out.jpg",
+          "cropped_faces": [],
+          "restored_faces": []
+        },
+        "codeformer_w0.8": {
+          "name": "CodeFormer w=0.8",
+          "settings": "2x upscale, fidelity=0.8 (very high fidelity)",
+          "restored": "restored_codeformer_w0.8/final_results/start-03a.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.8/cropped_faces/start-03a_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.8/restored_faces/start-03a_00.png"
+          ]
+        },
+        "codeformer_w0.7": {
+          "name": "CodeFormer w=0.7",
+          "settings": "2x upscale, fidelity=0.7 (high fidelity)",
+          "restored": "restored_codeformer_w0.7/final_results/start-03a.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.7/cropped_faces/start-03a_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.7/restored_faces/start-03a_00.png"
+          ]
+        },
+        "codeformer_w0.5": {
+          "name": "CodeFormer w=0.5",
+          "settings": "2x upscale, fidelity=0.5 (balanced)",
+          "restored": "restored_codeformer_w0.5/final_results/start-03a.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.5/cropped_faces/start-03a_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.5/restored_faces/start-03a_00.png"
+          ]
+        },
+        "codeformer_w0": {
+          "name": "CodeFormer w=0.0",
+          "settings": "2x upscale, fidelity=0.0 (max quality)",
+          "restored": "restored_codeformer_w0/final_results/start-03a.png",
+          "cropped_faces": [
+            "restored_codeformer_w0/cropped_faces/start-03a_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0/restored_faces/start-03a_00.png"
+          ]
+        }
+      }
+    },
+    {
+      "basename": "start-03image",
+      "filename": "start-03image.jpg",
+      "original": "To restore/start-03image.jpg",
+      "models": {
+        "gfpgan": {
+          "name": "GFPGAN v1.4",
+          "settings": "2x upscale, weight=0.5",
+          "restored": "restored_gfpgan/restored_imgs/start-03image.jpg",
+          "cropped_faces": [
+            "restored_gfpgan/cropped_faces/start-03image_00.png"
+          ],
+          "restored_faces": [
+            "restored_gfpgan/restored_faces/start-03image_00.png"
+          ]
+        },
+        "realesrgan": {
+          "name": "Real-ESRGAN x4plus",
+          "settings": "2x upscale, full image enhancement",
+          "restored": "restored_realesrgan//start-03image_out.jpg",
+          "cropped_faces": [],
+          "restored_faces": []
+        },
+        "codeformer_w0.8": {
+          "name": "CodeFormer w=0.8",
+          "settings": "2x upscale, fidelity=0.8 (very high fidelity)",
+          "restored": "restored_codeformer_w0.8/final_results/start-03image.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.8/cropped_faces/start-03image_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.8/restored_faces/start-03image_00.png"
+          ]
+        },
+        "codeformer_w0.7": {
+          "name": "CodeFormer w=0.7",
+          "settings": "2x upscale, fidelity=0.7 (high fidelity)",
+          "restored": "restored_codeformer_w0.7/final_results/start-03image.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.7/cropped_faces/start-03image_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.7/restored_faces/start-03image_00.png"
+          ]
+        },
+        "codeformer_w0.5": {
+          "name": "CodeFormer w=0.5",
+          "settings": "2x upscale, fidelity=0.5 (balanced)",
+          "restored": "restored_codeformer_w0.5/final_results/start-03image.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.5/cropped_faces/start-03image_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.5/restored_faces/start-03image_00.png"
+          ]
+        },
+        "codeformer_w0": {
+          "name": "CodeFormer w=0.0",
+          "settings": "2x upscale, fidelity=0.0 (max quality)",
+          "restored": "restored_codeformer_w0/final_results/start-03image.png",
+          "cropped_faces": [
+            "restored_codeformer_w0/cropped_faces/start-03image_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0/restored_faces/start-03image_00.png"
+          ]
+        }
+      }
+    },
+    {
+      "basename": "start-04a",
+      "filename": "start-04a.jpg",
+      "original": "To restore/start-04a.jpg",
+      "models": {
+        "gfpgan": {
+          "name": "GFPGAN v1.4",
+          "settings": "2x upscale, weight=0.5",
+          "restored": "restored_gfpgan/restored_imgs/start-04a.jpg",
+          "cropped_faces": [
+            "restored_gfpgan/cropped_faces/start-04a_00.png"
+          ],
+          "restored_faces": [
+            "restored_gfpgan/restored_faces/start-04a_00.png"
+          ]
+        },
+        "realesrgan": {
+          "name": "Real-ESRGAN x4plus",
+          "settings": "2x upscale, full image enhancement",
+          "restored": "restored_realesrgan//start-04a_out.jpg",
+          "cropped_faces": [],
+          "restored_faces": []
+        },
+        "codeformer_w0.8": {
+          "name": "CodeFormer w=0.8",
+          "settings": "2x upscale, fidelity=0.8 (very high fidelity)",
+          "restored": "restored_codeformer_w0.8/final_results/start-04a.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.8/cropped_faces/start-04a_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.8/restored_faces/start-04a_00.png"
+          ]
+        },
+        "codeformer_w0.7": {
+          "name": "CodeFormer w=0.7",
+          "settings": "2x upscale, fidelity=0.7 (high fidelity)",
+          "restored": "restored_codeformer_w0.7/final_results/start-04a.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.7/cropped_faces/start-04a_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.7/restored_faces/start-04a_00.png"
+          ]
+        },
+        "codeformer_w0.5": {
+          "name": "CodeFormer w=0.5",
+          "settings": "2x upscale, fidelity=0.5 (balanced)",
+          "restored": "restored_codeformer_w0.5/final_results/start-04a.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.5/cropped_faces/start-04a_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.5/restored_faces/start-04a_00.png"
+          ]
+        },
+        "codeformer_w0": {
+          "name": "CodeFormer w=0.0",
+          "settings": "2x upscale, fidelity=0.0 (max quality)",
+          "restored": "restored_codeformer_w0/final_results/start-04a.png",
+          "cropped_faces": [
+            "restored_codeformer_w0/cropped_faces/start-04a_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0/restored_faces/start-04a_00.png"
+          ]
+        }
+      }
+    },
+    {
+      "basename": "start-0spice_005",
+      "filename": "start-0spice_005.jpg",
+      "original": "To restore/start-0spice_005.jpg",
+      "models": {
+        "gfpgan": {
+          "name": "GFPGAN v1.4",
+          "settings": "2x upscale, weight=0.5",
+          "restored": "restored_gfpgan/restored_imgs/start-0spice_005.jpg",
+          "cropped_faces": [
+            "restored_gfpgan/cropped_faces/start-0spice_005_00.png"
+          ],
+          "restored_faces": [
+            "restored_gfpgan/restored_faces/start-0spice_005_00.png"
+          ]
+        },
+        "realesrgan": {
+          "name": "Real-ESRGAN x4plus",
+          "settings": "2x upscale, full image enhancement",
+          "restored": "restored_realesrgan//start-0spice_005_out.jpg",
+          "cropped_faces": [],
+          "restored_faces": []
+        },
+        "codeformer_w0.8": {
+          "name": "CodeFormer w=0.8",
+          "settings": "2x upscale, fidelity=0.8 (very high fidelity)",
+          "restored": "restored_codeformer_w0.8/final_results/start-0spice_005.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.8/cropped_faces/start-0spice_005_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.8/restored_faces/start-0spice_005_00.png"
+          ]
+        },
+        "codeformer_w0.7": {
+          "name": "CodeFormer w=0.7",
+          "settings": "2x upscale, fidelity=0.7 (high fidelity)",
+          "restored": "restored_codeformer_w0.7/final_results/start-0spice_005.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.7/cropped_faces/start-0spice_005_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.7/restored_faces/start-0spice_005_00.png"
+          ]
+        },
+        "codeformer_w0.5": {
+          "name": "CodeFormer w=0.5",
+          "settings": "2x upscale, fidelity=0.5 (balanced)",
+          "restored": "restored_codeformer_w0.5/final_results/start-0spice_005.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.5/cropped_faces/start-0spice_005_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.5/restored_faces/start-0spice_005_00.png"
+          ]
+        },
+        "codeformer_w0": {
+          "name": "CodeFormer w=0.0",
+          "settings": "2x upscale, fidelity=0.0 (max quality)",
+          "restored": "restored_codeformer_w0/final_results/start-0spice_005.png",
+          "cropped_faces": [
+            "restored_codeformer_w0/cropped_faces/start-0spice_005_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0/restored_faces/start-0spice_005_00.png"
+          ]
+        }
+      }
+    },
+    {
+      "basename": "start-1fest1",
+      "filename": "start-1fest1.jpg",
+      "original": "To restore/start-1fest1.jpg",
+      "models": {
+        "gfpgan": {
+          "name": "GFPGAN v1.4",
+          "settings": "2x upscale, weight=0.5",
+          "restored": "restored_gfpgan/restored_imgs/start-1fest1.jpg",
+          "cropped_faces": [
+            "restored_gfpgan/cropped_faces/start-1fest1_00.png"
+          ],
+          "restored_faces": [
+            "restored_gfpgan/restored_faces/start-1fest1_00.png"
+          ]
+        },
+        "realesrgan": {
+          "name": "Real-ESRGAN x4plus",
+          "settings": "2x upscale, full image enhancement",
+          "restored": "restored_realesrgan//start-1fest1_out.jpg",
+          "cropped_faces": [],
+          "restored_faces": []
+        },
+        "codeformer_w0.8": {
+          "name": "CodeFormer w=0.8",
+          "settings": "2x upscale, fidelity=0.8 (very high fidelity)",
+          "restored": "restored_codeformer_w0.8/final_results/start-1fest1.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.8/cropped_faces/start-1fest1_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.8/restored_faces/start-1fest1_00.png"
+          ]
+        },
+        "codeformer_w0.7": {
+          "name": "CodeFormer w=0.7",
+          "settings": "2x upscale, fidelity=0.7 (high fidelity)",
+          "restored": "restored_codeformer_w0.7/final_results/start-1fest1.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.7/cropped_faces/start-1fest1_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.7/restored_faces/start-1fest1_00.png"
+          ]
+        },
+        "codeformer_w0.5": {
+          "name": "CodeFormer w=0.5",
+          "settings": "2x upscale, fidelity=0.5 (balanced)",
+          "restored": "restored_codeformer_w0.5/final_results/start-1fest1.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.5/cropped_faces/start-1fest1_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.5/restored_faces/start-1fest1_00.png"
+          ]
+        },
+        "codeformer_w0": {
+          "name": "CodeFormer w=0.0",
+          "settings": "2x upscale, fidelity=0.0 (max quality)",
+          "restored": "restored_codeformer_w0/final_results/start-1fest1.png",
+          "cropped_faces": [
+            "restored_codeformer_w0/cropped_faces/start-1fest1_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0/restored_faces/start-1fest1_00.png"
+          ]
+        }
+      }
+    },
+    {
+      "basename": "start-1fest13",
+      "filename": "start-1fest13.jpg",
+      "original": "To restore/start-1fest13.jpg",
+      "models": {
+        "gfpgan": {
+          "name": "GFPGAN v1.4",
+          "settings": "2x upscale, weight=0.5",
+          "restored": "restored_gfpgan/restored_imgs/start-1fest13.jpg",
+          "cropped_faces": [
+            "restored_gfpgan/cropped_faces/start-1fest13_00.png"
+          ],
+          "restored_faces": [
+            "restored_gfpgan/restored_faces/start-1fest13_00.png"
+          ]
+        },
+        "realesrgan": {
+          "name": "Real-ESRGAN x4plus",
+          "settings": "2x upscale, full image enhancement",
+          "restored": "restored_realesrgan//start-1fest13_out.jpg",
+          "cropped_faces": [],
+          "restored_faces": []
+        },
+        "codeformer_w0.8": {
+          "name": "CodeFormer w=0.8",
+          "settings": "2x upscale, fidelity=0.8 (very high fidelity)",
+          "restored": "restored_codeformer_w0.8/final_results/start-1fest13.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.8/cropped_faces/start-1fest13_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.8/restored_faces/start-1fest13_00.png"
+          ]
+        },
+        "codeformer_w0.7": {
+          "name": "CodeFormer w=0.7",
+          "settings": "2x upscale, fidelity=0.7 (high fidelity)",
+          "restored": "restored_codeformer_w0.7/final_results/start-1fest13.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.7/cropped_faces/start-1fest13_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.7/restored_faces/start-1fest13_00.png"
+          ]
+        },
+        "codeformer_w0.5": {
+          "name": "CodeFormer w=0.5",
+          "settings": "2x upscale, fidelity=0.5 (balanced)",
+          "restored": "restored_codeformer_w0.5/final_results/start-1fest13.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.5/cropped_faces/start-1fest13_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.5/restored_faces/start-1fest13_00.png"
+          ]
+        },
+        "codeformer_w0": {
+          "name": "CodeFormer w=0.0",
+          "settings": "2x upscale, fidelity=0.0 (max quality)",
+          "restored": "restored_codeformer_w0/final_results/start-1fest13.png",
+          "cropped_faces": [
+            "restored_codeformer_w0/cropped_faces/start-1fest13_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0/restored_faces/start-1fest13_00.png"
+          ]
+        }
+      }
+    },
+    {
+      "basename": "start-1fest14",
+      "filename": "start-1fest14.jpg",
+      "original": "To restore/start-1fest14.jpg",
+      "models": {
+        "gfpgan": {
+          "name": "GFPGAN v1.4",
+          "settings": "2x upscale, weight=0.5",
+          "restored": "restored_gfpgan/restored_imgs/start-1fest14.jpg",
+          "cropped_faces": [
+            "restored_gfpgan/cropped_faces/start-1fest14_00.png"
+          ],
+          "restored_faces": [
+            "restored_gfpgan/restored_faces/start-1fest14_00.png"
+          ]
+        },
+        "realesrgan": {
+          "name": "Real-ESRGAN x4plus",
+          "settings": "2x upscale, full image enhancement",
+          "restored": "restored_realesrgan//start-1fest14_out.jpg",
+          "cropped_faces": [],
+          "restored_faces": []
+        },
+        "codeformer_w0.8": {
+          "name": "CodeFormer w=0.8",
+          "settings": "2x upscale, fidelity=0.8 (very high fidelity)",
+          "restored": "restored_codeformer_w0.8/final_results/start-1fest14.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.8/cropped_faces/start-1fest14_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.8/restored_faces/start-1fest14_00.png"
+          ]
+        },
+        "codeformer_w0.7": {
+          "name": "CodeFormer w=0.7",
+          "settings": "2x upscale, fidelity=0.7 (high fidelity)",
+          "restored": "restored_codeformer_w0.7/final_results/start-1fest14.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.7/cropped_faces/start-1fest14_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.7/restored_faces/start-1fest14_00.png"
+          ]
+        },
+        "codeformer_w0.5": {
+          "name": "CodeFormer w=0.5",
+          "settings": "2x upscale, fidelity=0.5 (balanced)",
+          "restored": "restored_codeformer_w0.5/final_results/start-1fest14.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.5/cropped_faces/start-1fest14_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.5/restored_faces/start-1fest14_00.png"
+          ]
+        },
+        "codeformer_w0": {
+          "name": "CodeFormer w=0.0",
+          "settings": "2x upscale, fidelity=0.0 (max quality)",
+          "restored": "restored_codeformer_w0/final_results/start-1fest14.png",
+          "cropped_faces": [
+            "restored_codeformer_w0/cropped_faces/start-1fest14_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0/restored_faces/start-1fest14_00.png"
+          ]
+        }
+      }
+    },
+    {
+      "basename": "start-1fest16",
+      "filename": "start-1fest16.jpg",
+      "original": "To restore/start-1fest16.jpg",
+      "models": {
+        "gfpgan": {
+          "name": "GFPGAN v1.4",
+          "settings": "2x upscale, weight=0.5",
+          "restored": "restored_gfpgan/restored_imgs/start-1fest16.jpg",
+          "cropped_faces": [],
+          "restored_faces": []
+        },
+        "realesrgan": {
+          "name": "Real-ESRGAN x4plus",
+          "settings": "2x upscale, full image enhancement",
+          "restored": "restored_realesrgan//start-1fest16_out.jpg",
+          "cropped_faces": [],
+          "restored_faces": []
+        },
+        "codeformer_w0.8": {
+          "name": "CodeFormer w=0.8",
+          "settings": "2x upscale, fidelity=0.8 (very high fidelity)",
+          "restored": "restored_codeformer_w0.8/final_results/start-1fest16.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.8/cropped_faces/start-1fest16_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.8/restored_faces/start-1fest16_00.png"
+          ]
+        },
+        "codeformer_w0.7": {
+          "name": "CodeFormer w=0.7",
+          "settings": "2x upscale, fidelity=0.7 (high fidelity)",
+          "restored": "restored_codeformer_w0.7/final_results/start-1fest16.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.7/cropped_faces/start-1fest16_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.7/restored_faces/start-1fest16_00.png"
+          ]
+        },
+        "codeformer_w0.5": {
+          "name": "CodeFormer w=0.5",
+          "settings": "2x upscale, fidelity=0.5 (balanced)",
+          "restored": "restored_codeformer_w0.5/final_results/start-1fest16.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.5/cropped_faces/start-1fest16_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.5/restored_faces/start-1fest16_00.png"
+          ]
+        },
+        "codeformer_w0": {
+          "name": "CodeFormer w=0.0",
+          "settings": "2x upscale, fidelity=0.0 (max quality)",
+          "restored": "restored_codeformer_w0/final_results/start-1fest16.png",
+          "cropped_faces": [
+            "restored_codeformer_w0/cropped_faces/start-1fest16_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0/restored_faces/start-1fest16_00.png"
+          ]
+        }
+      }
+    },
+    {
+      "basename": "start-1fest19",
+      "filename": "start-1fest19.jpg",
+      "original": "To restore/start-1fest19.jpg",
+      "models": {
+        "gfpgan": {
+          "name": "GFPGAN v1.4",
+          "settings": "2x upscale, weight=0.5",
+          "restored": "restored_gfpgan/restored_imgs/start-1fest19.jpg",
+          "cropped_faces": [
+            "restored_gfpgan/cropped_faces/start-1fest19_00.png"
+          ],
+          "restored_faces": [
+            "restored_gfpgan/restored_faces/start-1fest19_00.png"
+          ]
+        },
+        "realesrgan": {
+          "name": "Real-ESRGAN x4plus",
+          "settings": "2x upscale, full image enhancement",
+          "restored": "restored_realesrgan//start-1fest19_out.jpg",
+          "cropped_faces": [],
+          "restored_faces": []
+        },
+        "codeformer_w0.8": {
+          "name": "CodeFormer w=0.8",
+          "settings": "2x upscale, fidelity=0.8 (very high fidelity)",
+          "restored": "restored_codeformer_w0.8/final_results/start-1fest19.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.8/cropped_faces/start-1fest19_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.8/restored_faces/start-1fest19_00.png"
+          ]
+        },
+        "codeformer_w0.7": {
+          "name": "CodeFormer w=0.7",
+          "settings": "2x upscale, fidelity=0.7 (high fidelity)",
+          "restored": "restored_codeformer_w0.7/final_results/start-1fest19.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.7/cropped_faces/start-1fest19_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.7/restored_faces/start-1fest19_00.png"
+          ]
+        },
+        "codeformer_w0.5": {
+          "name": "CodeFormer w=0.5",
+          "settings": "2x upscale, fidelity=0.5 (balanced)",
+          "restored": "restored_codeformer_w0.5/final_results/start-1fest19.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.5/cropped_faces/start-1fest19_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.5/restored_faces/start-1fest19_00.png"
+          ]
+        },
+        "codeformer_w0": {
+          "name": "CodeFormer w=0.0",
+          "settings": "2x upscale, fidelity=0.0 (max quality)",
+          "restored": "restored_codeformer_w0/final_results/start-1fest19.png",
+          "cropped_faces": [
+            "restored_codeformer_w0/cropped_faces/start-1fest19_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0/restored_faces/start-1fest19_00.png"
+          ]
+        }
+      }
+    },
+    {
+      "basename": "start-1fest6",
+      "filename": "start-1fest6.jpg",
+      "original": "To restore/start-1fest6.jpg",
+      "models": {
+        "gfpgan": {
+          "name": "GFPGAN v1.4",
+          "settings": "2x upscale, weight=0.5",
+          "restored": "restored_gfpgan/restored_imgs/start-1fest6.jpg",
+          "cropped_faces": [
+            "restored_gfpgan/cropped_faces/start-1fest6_00.png"
+          ],
+          "restored_faces": [
+            "restored_gfpgan/restored_faces/start-1fest6_00.png"
+          ]
+        },
+        "realesrgan": {
+          "name": "Real-ESRGAN x4plus",
+          "settings": "2x upscale, full image enhancement",
+          "restored": "restored_realesrgan//start-1fest6_out.jpg",
+          "cropped_faces": [],
+          "restored_faces": []
+        },
+        "codeformer_w0.8": {
+          "name": "CodeFormer w=0.8",
+          "settings": "2x upscale, fidelity=0.8 (very high fidelity)",
+          "restored": "restored_codeformer_w0.8/final_results/start-1fest6.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.8/cropped_faces/start-1fest6_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.8/restored_faces/start-1fest6_00.png"
+          ]
+        },
+        "codeformer_w0.7": {
+          "name": "CodeFormer w=0.7",
+          "settings": "2x upscale, fidelity=0.7 (high fidelity)",
+          "restored": "restored_codeformer_w0.7/final_results/start-1fest6.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.7/cropped_faces/start-1fest6_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.7/restored_faces/start-1fest6_00.png"
+          ]
+        },
+        "codeformer_w0.5": {
+          "name": "CodeFormer w=0.5",
+          "settings": "2x upscale, fidelity=0.5 (balanced)",
+          "restored": "restored_codeformer_w0.5/final_results/start-1fest6.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.5/cropped_faces/start-1fest6_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.5/restored_faces/start-1fest6_00.png"
+          ]
+        },
+        "codeformer_w0": {
+          "name": "CodeFormer w=0.0",
+          "settings": "2x upscale, fidelity=0.0 (max quality)",
+          "restored": "restored_codeformer_w0/final_results/start-1fest6.png",
+          "cropped_faces": [
+            "restored_codeformer_w0/cropped_faces/start-1fest6_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0/restored_faces/start-1fest6_00.png"
+          ]
+        }
+      }
+    },
+    {
+      "basename": "start-1fest9",
+      "filename": "start-1fest9.jpg",
+      "original": "To restore/start-1fest9.jpg",
+      "models": {
+        "gfpgan": {
+          "name": "GFPGAN v1.4",
+          "settings": "2x upscale, weight=0.5",
+          "restored": "restored_gfpgan/restored_imgs/start-1fest9.jpg",
+          "cropped_faces": [
+            "restored_gfpgan/cropped_faces/start-1fest9_00.png"
+          ],
+          "restored_faces": [
+            "restored_gfpgan/restored_faces/start-1fest9_00.png"
+          ]
+        },
+        "realesrgan": {
+          "name": "Real-ESRGAN x4plus",
+          "settings": "2x upscale, full image enhancement",
+          "restored": "restored_realesrgan//start-1fest9_out.jpg",
+          "cropped_faces": [],
+          "restored_faces": []
+        },
+        "codeformer_w0.8": {
+          "name": "CodeFormer w=0.8",
+          "settings": "2x upscale, fidelity=0.8 (very high fidelity)",
+          "restored": "restored_codeformer_w0.8/final_results/start-1fest9.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.8/cropped_faces/start-1fest9_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.8/restored_faces/start-1fest9_00.png"
+          ]
+        },
+        "codeformer_w0.7": {
+          "name": "CodeFormer w=0.7",
+          "settings": "2x upscale, fidelity=0.7 (high fidelity)",
+          "restored": "restored_codeformer_w0.7/final_results/start-1fest9.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.7/cropped_faces/start-1fest9_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.7/restored_faces/start-1fest9_00.png"
+          ]
+        },
+        "codeformer_w0.5": {
+          "name": "CodeFormer w=0.5",
+          "settings": "2x upscale, fidelity=0.5 (balanced)",
+          "restored": "restored_codeformer_w0.5/final_results/start-1fest9.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.5/cropped_faces/start-1fest9_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.5/restored_faces/start-1fest9_00.png"
+          ]
+        },
+        "codeformer_w0": {
+          "name": "CodeFormer w=0.0",
+          "settings": "2x upscale, fidelity=0.0 (max quality)",
+          "restored": "restored_codeformer_w0/final_results/start-1fest9.png",
+          "cropped_faces": [
+            "restored_codeformer_w0/cropped_faces/start-1fest9_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0/restored_faces/start-1fest9_00.png"
+          ]
+        }
+      }
+    },
+    {
+      "basename": "start-1on11",
+      "filename": "start-1on11.jpg",
+      "original": "To restore/start-1on11.jpg",
+      "models": {
+        "gfpgan": {
+          "name": "GFPGAN v1.4",
+          "settings": "2x upscale, weight=0.5",
+          "restored": "restored_gfpgan/restored_imgs/start-1on11.jpg",
+          "cropped_faces": [
+            "restored_gfpgan/cropped_faces/start-1on11_00.png"
+          ],
+          "restored_faces": [
+            "restored_gfpgan/restored_faces/start-1on11_00.png"
+          ]
+        },
+        "realesrgan": {
+          "name": "Real-ESRGAN x4plus",
+          "settings": "2x upscale, full image enhancement",
+          "restored": "restored_realesrgan//start-1on11_out.jpg",
+          "cropped_faces": [],
+          "restored_faces": []
+        },
+        "codeformer_w0.8": {
+          "name": "CodeFormer w=0.8",
+          "settings": "2x upscale, fidelity=0.8 (very high fidelity)",
+          "restored": "restored_codeformer_w0.8/final_results/start-1on11.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.8/cropped_faces/start-1on11_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.8/restored_faces/start-1on11_00.png"
+          ]
+        },
+        "codeformer_w0.7": {
+          "name": "CodeFormer w=0.7",
+          "settings": "2x upscale, fidelity=0.7 (high fidelity)",
+          "restored": "restored_codeformer_w0.7/final_results/start-1on11.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.7/cropped_faces/start-1on11_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.7/restored_faces/start-1on11_00.png"
+          ]
+        },
+        "codeformer_w0.5": {
+          "name": "CodeFormer w=0.5",
+          "settings": "2x upscale, fidelity=0.5 (balanced)",
+          "restored": "restored_codeformer_w0.5/final_results/start-1on11.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.5/cropped_faces/start-1on11_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.5/restored_faces/start-1on11_00.png"
+          ]
+        },
+        "codeformer_w0": {
+          "name": "CodeFormer w=0.0",
+          "settings": "2x upscale, fidelity=0.0 (max quality)",
+          "restored": "restored_codeformer_w0/final_results/start-1on11.png",
+          "cropped_faces": [
+            "restored_codeformer_w0/cropped_faces/start-1on11_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0/restored_faces/start-1on11_00.png"
+          ]
+        }
+      }
+    },
+    {
+      "basename": "start-1on7",
+      "filename": "start-1on7.jpg",
+      "original": "To restore/start-1on7.jpg",
+      "models": {
+        "gfpgan": {
+          "name": "GFPGAN v1.4",
+          "settings": "2x upscale, weight=0.5",
+          "restored": "restored_gfpgan/restored_imgs/start-1on7.jpg",
+          "cropped_faces": [
+            "restored_gfpgan/cropped_faces/start-1on7_00.png"
+          ],
+          "restored_faces": [
+            "restored_gfpgan/restored_faces/start-1on7_00.png"
+          ]
+        },
+        "realesrgan": {
+          "name": "Real-ESRGAN x4plus",
+          "settings": "2x upscale, full image enhancement",
+          "restored": "restored_realesrgan//start-1on7_out.jpg",
+          "cropped_faces": [],
+          "restored_faces": []
+        },
+        "codeformer_w0.8": {
+          "name": "CodeFormer w=0.8",
+          "settings": "2x upscale, fidelity=0.8 (very high fidelity)",
+          "restored": "restored_codeformer_w0.8/final_results/start-1on7.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.8/cropped_faces/start-1on7_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.8/restored_faces/start-1on7_00.png"
+          ]
+        },
+        "codeformer_w0.7": {
+          "name": "CodeFormer w=0.7",
+          "settings": "2x upscale, fidelity=0.7 (high fidelity)",
+          "restored": "restored_codeformer_w0.7/final_results/start-1on7.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.7/cropped_faces/start-1on7_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.7/restored_faces/start-1on7_00.png"
+          ]
+        },
+        "codeformer_w0.5": {
+          "name": "CodeFormer w=0.5",
+          "settings": "2x upscale, fidelity=0.5 (balanced)",
+          "restored": "restored_codeformer_w0.5/final_results/start-1on7.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.5/cropped_faces/start-1on7_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.5/restored_faces/start-1on7_00.png"
+          ]
+        },
+        "codeformer_w0": {
+          "name": "CodeFormer w=0.0",
+          "settings": "2x upscale, fidelity=0.0 (max quality)",
+          "restored": "restored_codeformer_w0/final_results/start-1on7.png",
+          "cropped_faces": [
+            "restored_codeformer_w0/cropped_faces/start-1on7_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0/restored_faces/start-1on7_00.png"
+          ]
+        }
+      }
+    },
+    {
+      "basename": "start-1on8",
+      "filename": "start-1on8.jpg",
+      "original": "To restore/start-1on8.jpg",
+      "models": {
+        "gfpgan": {
+          "name": "GFPGAN v1.4",
+          "settings": "2x upscale, weight=0.5",
+          "restored": "restored_gfpgan/restored_imgs/start-1on8.jpg",
+          "cropped_faces": [
+            "restored_gfpgan/cropped_faces/start-1on8_00.png"
+          ],
+          "restored_faces": [
+            "restored_gfpgan/restored_faces/start-1on8_00.png"
+          ]
+        },
+        "realesrgan": {
+          "name": "Real-ESRGAN x4plus",
+          "settings": "2x upscale, full image enhancement",
+          "restored": "restored_realesrgan//start-1on8_out.jpg",
+          "cropped_faces": [],
+          "restored_faces": []
+        },
+        "codeformer_w0.8": {
+          "name": "CodeFormer w=0.8",
+          "settings": "2x upscale, fidelity=0.8 (very high fidelity)",
+          "restored": "restored_codeformer_w0.8/final_results/start-1on8.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.8/cropped_faces/start-1on8_00.png",
+            "restored_codeformer_w0.8/cropped_faces/start-1on8_01.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.8/restored_faces/start-1on8_00.png",
+            "restored_codeformer_w0.8/restored_faces/start-1on8_01.png"
+          ]
+        },
+        "codeformer_w0.7": {
+          "name": "CodeFormer w=0.7",
+          "settings": "2x upscale, fidelity=0.7 (high fidelity)",
+          "restored": "restored_codeformer_w0.7/final_results/start-1on8.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.7/cropped_faces/start-1on8_00.png",
+            "restored_codeformer_w0.7/cropped_faces/start-1on8_01.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.7/restored_faces/start-1on8_00.png",
+            "restored_codeformer_w0.7/restored_faces/start-1on8_01.png"
+          ]
+        },
+        "codeformer_w0.5": {
+          "name": "CodeFormer w=0.5",
+          "settings": "2x upscale, fidelity=0.5 (balanced)",
+          "restored": "restored_codeformer_w0.5/final_results/start-1on8.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.5/cropped_faces/start-1on8_00.png",
+            "restored_codeformer_w0.5/cropped_faces/start-1on8_01.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.5/restored_faces/start-1on8_00.png",
+            "restored_codeformer_w0.5/restored_faces/start-1on8_01.png"
+          ]
+        },
+        "codeformer_w0": {
+          "name": "CodeFormer w=0.0",
+          "settings": "2x upscale, fidelity=0.0 (max quality)",
+          "restored": "restored_codeformer_w0/final_results/start-1on8.png",
+          "cropped_faces": [
+            "restored_codeformer_w0/cropped_faces/start-1on8_00.png",
+            "restored_codeformer_w0/cropped_faces/start-1on8_01.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0/restored_faces/start-1on8_00.png",
+            "restored_codeformer_w0/restored_faces/start-1on8_01.png"
+          ]
+        }
+      }
+    },
+    {
+      "basename": "start-2sc00000",
+      "filename": "start-2sc00000.jpg",
+      "original": "To restore/start-2sc00000.jpg",
+      "models": {
+        "gfpgan": {
+          "name": "GFPGAN v1.4",
+          "settings": "2x upscale, weight=0.5",
+          "restored": "restored_gfpgan/restored_imgs/start-2sc00000.jpg",
+          "cropped_faces": [],
+          "restored_faces": []
+        },
+        "realesrgan": {
+          "name": "Real-ESRGAN x4plus",
+          "settings": "2x upscale, full image enhancement",
+          "restored": "restored_realesrgan//start-2sc00000_out.jpg",
+          "cropped_faces": [],
+          "restored_faces": []
+        },
+        "codeformer_w0.8": {
+          "name": "CodeFormer w=0.8",
+          "settings": "2x upscale, fidelity=0.8 (very high fidelity)",
+          "restored": "restored_codeformer_w0.8/final_results/start-2sc00000.png",
+          "cropped_faces": [],
+          "restored_faces": []
+        },
+        "codeformer_w0.7": {
+          "name": "CodeFormer w=0.7",
+          "settings": "2x upscale, fidelity=0.7 (high fidelity)",
+          "restored": "restored_codeformer_w0.7/final_results/start-2sc00000.png",
+          "cropped_faces": [],
+          "restored_faces": []
+        },
+        "codeformer_w0.5": {
+          "name": "CodeFormer w=0.5",
+          "settings": "2x upscale, fidelity=0.5 (balanced)",
+          "restored": "restored_codeformer_w0.5/final_results/start-2sc00000.png",
+          "cropped_faces": [],
+          "restored_faces": []
+        },
+        "codeformer_w0": {
+          "name": "CodeFormer w=0.0",
+          "settings": "2x upscale, fidelity=0.0 (max quality)",
+          "restored": "restored_codeformer_w0/final_results/start-2sc00000.png",
+          "cropped_faces": [],
+          "restored_faces": []
+        }
+      }
+    },
+    {
+      "basename": "start-2sc00008",
+      "filename": "start-2sc00008.jpg",
+      "original": "To restore/start-2sc00008.jpg",
+      "models": {
+        "gfpgan": {
+          "name": "GFPGAN v1.4",
+          "settings": "2x upscale, weight=0.5",
+          "restored": "restored_gfpgan/restored_imgs/start-2sc00008.jpg",
+          "cropped_faces": [
+            "restored_gfpgan/cropped_faces/start-2sc00008_00.png"
+          ],
+          "restored_faces": [
+            "restored_gfpgan/restored_faces/start-2sc00008_00.png"
+          ]
+        },
+        "realesrgan": {
+          "name": "Real-ESRGAN x4plus",
+          "settings": "2x upscale, full image enhancement",
+          "restored": "restored_realesrgan//start-2sc00008_out.jpg",
+          "cropped_faces": [],
+          "restored_faces": []
+        },
+        "codeformer_w0.8": {
+          "name": "CodeFormer w=0.8",
+          "settings": "2x upscale, fidelity=0.8 (very high fidelity)",
+          "restored": "restored_codeformer_w0.8/final_results/start-2sc00008.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.8/cropped_faces/start-2sc00008_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.8/restored_faces/start-2sc00008_00.png"
+          ]
+        },
+        "codeformer_w0.7": {
+          "name": "CodeFormer w=0.7",
+          "settings": "2x upscale, fidelity=0.7 (high fidelity)",
+          "restored": "restored_codeformer_w0.7/final_results/start-2sc00008.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.7/cropped_faces/start-2sc00008_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.7/restored_faces/start-2sc00008_00.png"
+          ]
+        },
+        "codeformer_w0.5": {
+          "name": "CodeFormer w=0.5",
+          "settings": "2x upscale, fidelity=0.5 (balanced)",
+          "restored": "restored_codeformer_w0.5/final_results/start-2sc00008.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.5/cropped_faces/start-2sc00008_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.5/restored_faces/start-2sc00008_00.png"
+          ]
+        },
+        "codeformer_w0": {
+          "name": "CodeFormer w=0.0",
+          "settings": "2x upscale, fidelity=0.0 (max quality)",
+          "restored": "restored_codeformer_w0/final_results/start-2sc00008.png",
+          "cropped_faces": [
+            "restored_codeformer_w0/cropped_faces/start-2sc00008_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0/restored_faces/start-2sc00008_00.png"
+          ]
+        }
+      }
+    },
+    {
+      "basename": "start-2sc00015",
+      "filename": "start-2sc00015.jpg",
+      "original": "To restore/start-2sc00015.jpg",
+      "models": {
+        "gfpgan": {
+          "name": "GFPGAN v1.4",
+          "settings": "2x upscale, weight=0.5",
+          "restored": "restored_gfpgan/restored_imgs/start-2sc00015.jpg",
+          "cropped_faces": [
+            "restored_gfpgan/cropped_faces/start-2sc00015_00.png"
+          ],
+          "restored_faces": [
+            "restored_gfpgan/restored_faces/start-2sc00015_00.png"
+          ]
+        },
+        "realesrgan": {
+          "name": "Real-ESRGAN x4plus",
+          "settings": "2x upscale, full image enhancement",
+          "restored": "restored_realesrgan//start-2sc00015_out.jpg",
+          "cropped_faces": [],
+          "restored_faces": []
+        },
+        "codeformer_w0.8": {
+          "name": "CodeFormer w=0.8",
+          "settings": "2x upscale, fidelity=0.8 (very high fidelity)",
+          "restored": "restored_codeformer_w0.8/final_results/start-2sc00015.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.8/cropped_faces/start-2sc00015_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.8/restored_faces/start-2sc00015_00.png"
+          ]
+        },
+        "codeformer_w0.7": {
+          "name": "CodeFormer w=0.7",
+          "settings": "2x upscale, fidelity=0.7 (high fidelity)",
+          "restored": "restored_codeformer_w0.7/final_results/start-2sc00015.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.7/cropped_faces/start-2sc00015_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.7/restored_faces/start-2sc00015_00.png"
+          ]
+        },
+        "codeformer_w0.5": {
+          "name": "CodeFormer w=0.5",
+          "settings": "2x upscale, fidelity=0.5 (balanced)",
+          "restored": "restored_codeformer_w0.5/final_results/start-2sc00015.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.5/cropped_faces/start-2sc00015_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.5/restored_faces/start-2sc00015_00.png"
+          ]
+        },
+        "codeformer_w0": {
+          "name": "CodeFormer w=0.0",
+          "settings": "2x upscale, fidelity=0.0 (max quality)",
+          "restored": "restored_codeformer_w0/final_results/start-2sc00015.png",
+          "cropped_faces": [
+            "restored_codeformer_w0/cropped_faces/start-2sc00015_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0/restored_faces/start-2sc00015_00.png"
+          ]
+        }
+      }
+    },
+    {
+      "basename": "start-3on1",
+      "filename": "start-3on1.jpg",
+      "original": "To restore/start-3on1.jpg",
+      "models": {
+        "gfpgan": {
+          "name": "GFPGAN v1.4",
+          "settings": "2x upscale, weight=0.5",
+          "restored": "restored_gfpgan/restored_imgs/start-3on1.jpg",
+          "cropped_faces": [
+            "restored_gfpgan/cropped_faces/start-3on1_00.png"
+          ],
+          "restored_faces": [
+            "restored_gfpgan/restored_faces/start-3on1_00.png"
+          ]
+        },
+        "realesrgan": {
+          "name": "Real-ESRGAN x4plus",
+          "settings": "2x upscale, full image enhancement",
+          "restored": "restored_realesrgan//start-3on1_out.jpg",
+          "cropped_faces": [],
+          "restored_faces": []
+        },
+        "codeformer_w0.8": {
+          "name": "CodeFormer w=0.8",
+          "settings": "2x upscale, fidelity=0.8 (very high fidelity)",
+          "restored": "restored_codeformer_w0.8/final_results/start-3on1.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.8/cropped_faces/start-3on1_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.8/restored_faces/start-3on1_00.png"
+          ]
+        },
+        "codeformer_w0.7": {
+          "name": "CodeFormer w=0.7",
+          "settings": "2x upscale, fidelity=0.7 (high fidelity)",
+          "restored": "restored_codeformer_w0.7/final_results/start-3on1.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.7/cropped_faces/start-3on1_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.7/restored_faces/start-3on1_00.png"
+          ]
+        },
+        "codeformer_w0.5": {
+          "name": "CodeFormer w=0.5",
+          "settings": "2x upscale, fidelity=0.5 (balanced)",
+          "restored": "restored_codeformer_w0.5/final_results/start-3on1.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.5/cropped_faces/start-3on1_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.5/restored_faces/start-3on1_00.png"
+          ]
+        },
+        "codeformer_w0": {
+          "name": "CodeFormer w=0.0",
+          "settings": "2x upscale, fidelity=0.0 (max quality)",
+          "restored": "restored_codeformer_w0/final_results/start-3on1.png",
+          "cropped_faces": [
+            "restored_codeformer_w0/cropped_faces/start-3on1_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0/restored_faces/start-3on1_00.png"
+          ]
+        }
+      }
+    },
+    {
+      "basename": "start-3on10",
+      "filename": "start-3on10.jpg",
+      "original": "To restore/start-3on10.jpg",
+      "models": {
+        "gfpgan": {
+          "name": "GFPGAN v1.4",
+          "settings": "2x upscale, weight=0.5",
+          "restored": "restored_gfpgan/restored_imgs/start-3on10.jpg",
+          "cropped_faces": [
+            "restored_gfpgan/cropped_faces/start-3on10_00.png"
+          ],
+          "restored_faces": [
+            "restored_gfpgan/restored_faces/start-3on10_00.png"
+          ]
+        },
+        "realesrgan": {
+          "name": "Real-ESRGAN x4plus",
+          "settings": "2x upscale, full image enhancement",
+          "restored": "restored_realesrgan//start-3on10_out.jpg",
+          "cropped_faces": [],
+          "restored_faces": []
+        },
+        "codeformer_w0.8": {
+          "name": "CodeFormer w=0.8",
+          "settings": "2x upscale, fidelity=0.8 (very high fidelity)",
+          "restored": "restored_codeformer_w0.8/final_results/start-3on10.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.8/cropped_faces/start-3on10_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.8/restored_faces/start-3on10_00.png"
+          ]
+        },
+        "codeformer_w0.7": {
+          "name": "CodeFormer w=0.7",
+          "settings": "2x upscale, fidelity=0.7 (high fidelity)",
+          "restored": "restored_codeformer_w0.7/final_results/start-3on10.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.7/cropped_faces/start-3on10_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.7/restored_faces/start-3on10_00.png"
+          ]
+        },
+        "codeformer_w0.5": {
+          "name": "CodeFormer w=0.5",
+          "settings": "2x upscale, fidelity=0.5 (balanced)",
+          "restored": "restored_codeformer_w0.5/final_results/start-3on10.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.5/cropped_faces/start-3on10_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.5/restored_faces/start-3on10_00.png"
+          ]
+        },
+        "codeformer_w0": {
+          "name": "CodeFormer w=0.0",
+          "settings": "2x upscale, fidelity=0.0 (max quality)",
+          "restored": "restored_codeformer_w0/final_results/start-3on10.png",
+          "cropped_faces": [
+            "restored_codeformer_w0/cropped_faces/start-3on10_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0/restored_faces/start-3on10_00.png"
+          ]
+        }
+      }
+    },
+    {
+      "basename": "start-3on20",
+      "filename": "start-3on20.jpg",
+      "original": "To restore/start-3on20.jpg",
+      "models": {
+        "gfpgan": {
+          "name": "GFPGAN v1.4",
+          "settings": "2x upscale, weight=0.5",
+          "restored": "restored_gfpgan/restored_imgs/start-3on20.jpg",
+          "cropped_faces": [
+            "restored_gfpgan/cropped_faces/start-3on20_00.png"
+          ],
+          "restored_faces": [
+            "restored_gfpgan/restored_faces/start-3on20_00.png"
+          ]
+        },
+        "realesrgan": {
+          "name": "Real-ESRGAN x4plus",
+          "settings": "2x upscale, full image enhancement",
+          "restored": "restored_realesrgan//start-3on20_out.jpg",
+          "cropped_faces": [],
+          "restored_faces": []
+        },
+        "codeformer_w0.8": {
+          "name": "CodeFormer w=0.8",
+          "settings": "2x upscale, fidelity=0.8 (very high fidelity)",
+          "restored": "restored_codeformer_w0.8/final_results/start-3on20.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.8/cropped_faces/start-3on20_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.8/restored_faces/start-3on20_00.png"
+          ]
+        },
+        "codeformer_w0.7": {
+          "name": "CodeFormer w=0.7",
+          "settings": "2x upscale, fidelity=0.7 (high fidelity)",
+          "restored": "restored_codeformer_w0.7/final_results/start-3on20.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.7/cropped_faces/start-3on20_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.7/restored_faces/start-3on20_00.png"
+          ]
+        },
+        "codeformer_w0.5": {
+          "name": "CodeFormer w=0.5",
+          "settings": "2x upscale, fidelity=0.5 (balanced)",
+          "restored": "restored_codeformer_w0.5/final_results/start-3on20.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.5/cropped_faces/start-3on20_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.5/restored_faces/start-3on20_00.png"
+          ]
+        },
+        "codeformer_w0": {
+          "name": "CodeFormer w=0.0",
+          "settings": "2x upscale, fidelity=0.0 (max quality)",
+          "restored": "restored_codeformer_w0/final_results/start-3on20.png",
+          "cropped_faces": [
+            "restored_codeformer_w0/cropped_faces/start-3on20_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0/restored_faces/start-3on20_00.png"
+          ]
+        }
+      }
+    },
+    {
+      "basename": "start-3on3",
+      "filename": "start-3on3.jpg",
+      "original": "To restore/start-3on3.jpg",
+      "models": {
+        "gfpgan": {
+          "name": "GFPGAN v1.4",
+          "settings": "2x upscale, weight=0.5",
+          "restored": "restored_gfpgan/restored_imgs/start-3on3.jpg",
+          "cropped_faces": [
+            "restored_gfpgan/cropped_faces/start-3on3_00.png"
+          ],
+          "restored_faces": [
+            "restored_gfpgan/restored_faces/start-3on3_00.png"
+          ]
+        },
+        "realesrgan": {
+          "name": "Real-ESRGAN x4plus",
+          "settings": "2x upscale, full image enhancement",
+          "restored": "restored_realesrgan//start-3on3_out.jpg",
+          "cropped_faces": [],
+          "restored_faces": []
+        },
+        "codeformer_w0.8": {
+          "name": "CodeFormer w=0.8",
+          "settings": "2x upscale, fidelity=0.8 (very high fidelity)",
+          "restored": "restored_codeformer_w0.8/final_results/start-3on3.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.8/cropped_faces/start-3on3_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.8/restored_faces/start-3on3_00.png"
+          ]
+        },
+        "codeformer_w0.7": {
+          "name": "CodeFormer w=0.7",
+          "settings": "2x upscale, fidelity=0.7 (high fidelity)",
+          "restored": "restored_codeformer_w0.7/final_results/start-3on3.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.7/cropped_faces/start-3on3_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.7/restored_faces/start-3on3_00.png"
+          ]
+        },
+        "codeformer_w0.5": {
+          "name": "CodeFormer w=0.5",
+          "settings": "2x upscale, fidelity=0.5 (balanced)",
+          "restored": "restored_codeformer_w0.5/final_results/start-3on3.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.5/cropped_faces/start-3on3_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.5/restored_faces/start-3on3_00.png"
+          ]
+        },
+        "codeformer_w0": {
+          "name": "CodeFormer w=0.0",
+          "settings": "2x upscale, fidelity=0.0 (max quality)",
+          "restored": "restored_codeformer_w0/final_results/start-3on3.png",
+          "cropped_faces": [
+            "restored_codeformer_w0/cropped_faces/start-3on3_00.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0/restored_faces/start-3on3_00.png"
+          ]
+        }
+      }
+    },
+    {
+      "basename": "start-3on6",
+      "filename": "start-3on6.jpg",
+      "original": "To restore/start-3on6.jpg",
+      "models": {
+        "gfpgan": {
+          "name": "GFPGAN v1.4",
+          "settings": "2x upscale, weight=0.5",
+          "restored": "restored_gfpgan/restored_imgs/start-3on6.jpg",
+          "cropped_faces": [
+            "restored_gfpgan/cropped_faces/start-3on6_00.png",
+            "restored_gfpgan/cropped_faces/start-3on6_01.png"
+          ],
+          "restored_faces": [
+            "restored_gfpgan/restored_faces/start-3on6_00.png",
+            "restored_gfpgan/restored_faces/start-3on6_01.png"
+          ]
+        },
+        "realesrgan": {
+          "name": "Real-ESRGAN x4plus",
+          "settings": "2x upscale, full image enhancement",
+          "restored": "restored_realesrgan//start-3on6_out.jpg",
+          "cropped_faces": [],
+          "restored_faces": []
+        },
+        "codeformer_w0.8": {
+          "name": "CodeFormer w=0.8",
+          "settings": "2x upscale, fidelity=0.8 (very high fidelity)",
+          "restored": "restored_codeformer_w0.8/final_results/start-3on6.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.8/cropped_faces/start-3on6_00.png",
+            "restored_codeformer_w0.8/cropped_faces/start-3on6_01.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.8/restored_faces/start-3on6_00.png",
+            "restored_codeformer_w0.8/restored_faces/start-3on6_01.png"
+          ]
+        },
+        "codeformer_w0.7": {
+          "name": "CodeFormer w=0.7",
+          "settings": "2x upscale, fidelity=0.7 (high fidelity)",
+          "restored": "restored_codeformer_w0.7/final_results/start-3on6.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.7/cropped_faces/start-3on6_00.png",
+            "restored_codeformer_w0.7/cropped_faces/start-3on6_01.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.7/restored_faces/start-3on6_00.png",
+            "restored_codeformer_w0.7/restored_faces/start-3on6_01.png"
+          ]
+        },
+        "codeformer_w0.5": {
+          "name": "CodeFormer w=0.5",
+          "settings": "2x upscale, fidelity=0.5 (balanced)",
+          "restored": "restored_codeformer_w0.5/final_results/start-3on6.png",
+          "cropped_faces": [
+            "restored_codeformer_w0.5/cropped_faces/start-3on6_00.png",
+            "restored_codeformer_w0.5/cropped_faces/start-3on6_01.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0.5/restored_faces/start-3on6_00.png",
+            "restored_codeformer_w0.5/restored_faces/start-3on6_01.png"
+          ]
+        },
+        "codeformer_w0": {
+          "name": "CodeFormer w=0.0",
+          "settings": "2x upscale, fidelity=0.0 (max quality)",
+          "restored": "restored_codeformer_w0/final_results/start-3on6.png",
+          "cropped_faces": [
+            "restored_codeformer_w0/cropped_faces/start-3on6_00.png",
+            "restored_codeformer_w0/cropped_faces/start-3on6_01.png"
+          ],
+          "restored_faces": [
+            "restored_codeformer_w0/restored_faces/start-3on6_00.png",
+            "restored_codeformer_w0/restored_faces/start-3on6_01.png"
+          ]
+        }
+      }
+    }
+  ]
+}
