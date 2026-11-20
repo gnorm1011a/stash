@@ -1,0 +1,20 @@
+{
+ "applied": {
+  "Ultra Low Quality (h<=260, tag 1336)": 706,
+  "Low Quality (261<=h<=576, tag 706)": 4996
+ },
+ "preexisting_lq_heights": {
+  "240": 6,
+  "272": 1,
+  "352": 5,
+  "360": 6,
+  "364": 1,
+  "368": 1,
+  "480": 50,
+  "540": 1,
+  "720": 39,
+  "1080": 18,
+  "1440": 2
+ },
+ "note": "preexisting Low Quality tags left untouched (incl. 6 at 240p, 39 at 720p, 18 at 1080p manually tagged)"
+}
