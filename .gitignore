@@ -65,3 +65,6 @@ desktop.ini
 # ---- Local-only notes ----
 local/
 *.local.ps1
+
+# Large regenerable API caches
+exports/*cache*.json
